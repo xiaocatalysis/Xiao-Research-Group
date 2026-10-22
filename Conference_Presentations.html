@@ -5,203 +5,522 @@
 <!--[if !IE]><!-->
 <html lang="en">
     <!--<![endif]-->
-<body>
-<div id="content">
-<div class="container background-white">
-<div class="row margin-vert-30">
-<!-- Main Column -->
-<div class="col-md-12">
+    <head>
+        <!-- Title -->
+        <title>Xiao Research Group - Louisiana Tech University - A Reaction Engineering and Catalysis Science Laboratory</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Prof. Xiao's Group Website">
+        <meta name="author" content="Prof. Yang Xiao">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css?v=20171205135800" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+	<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* background-color: #193a3d; */
+  /* color:#193a3d; */
+  color:#ffffff;
+  text-align:center;
+  /* background-color: #193a3d; */
+  padding: 12px 12px;
+}
 
-<div id="content">
-                <div class="container background-white">
-                    <div class="row margin-vert-30">
-                        <!-- Main Column -->
-                      <div class="col-md-12">
-<h1>Conference Presentations</h1>
+.dropdown-content {
+  /* text-align:center */
+  display: none;
+  position: relative;
+  line-height: 5px;
+  background-color:#bbbbbb;
+  min-width: 1 px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  padding: 8px 8px;
+  z-index: 10;
+}
 
-<h3>
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-<p>(43). Tobias Misicko and Yang Xiao,
-Quantifying Reaction-Diffusion Phenomena of Ethane Dehydrogenation on Two-Dimensional Metal Carbide Catalyst,
-<em>The 29th North American Catalysis Society Meeting (NAM29)</em>, Atlanta, Georgia, June 8 - 13, <b>2025</b>.
-</p>
+/* ============ Mobile: enlarge top logo & trim blank space ============ */
+@media (max-width: 767px) {
+  #header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 
-<p>(42). Yang Xiao,
-Bridging the Gap Between Catalysis and Reaction Engineering (invited talk for graduate students in the department of chemical engineering),
-<em>University of Louisiana at Lafayette</em>, Lafayette, Louisiana, Februaryb 24, <b>2025</b>.
-</p>
-  
-<p>(41). Joaquin Herrero, Tobias Misicko, and Yang Xiao,
-Machine Learning for Parametric Sensitivity of Chemical Reactors,
-<em>The 5th North American Symposium on Chemical Reaction Engineering (NASCRE-5)</em>, Houston, Texas, February 16 - 19, <b>2025</b>.
-</p>
-  
-<p>(40). Yang Xiao and Tobias Misicko,
-Quantifying Reaction-Diffusion Rates of Nonoxidative Coupling of Methane per Active Edge Sites of Two-Dimensional Pt Nanolayer Catalysts,
-<em>The 5th North American Symposium on Chemical Reaction Engineering (NASCRE-5)</em>, Houston, Texas, February 16 - 19, <b>2025</b>.
-</p>
+  #header .logo {
+    float: none !important;
+    margin: 6px 0 !important;
+    text-align: center;
+  }
 
-<p>(39). Yang Xiao, Tobias Misicko, and Xiaoyang Gao,
-  Thermal Runaway of Chemical Reactors: An Experimental, Modeling and Machine-Learning Investigation,
-<em>AIChE Annual Meeting</em>, San Diego, CA, October 27 - 31, <b>2024</b>.
-</p>
+  #header .logo img {
+    width: 94% !important;
+    max-width: 560px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+</style>
+    </head>
 
-<p>(38). Yang Xiao, Tobias Misicko, Xiaoyang Gao, and Daniela Mainardi,
-  Catalytically Active Edge Sites of Mxene-Confined Pt Nanolayers for Conversion of Short Alkanes,
-<em>AIChE Annual Meeting</em>, San Diego, CA, October 27 - 31, <b>2024</b>.
-</p>
+    <body>
+        <!-- <div id="body-bg"> -->
+            <!-- <\!-- Phone/Email -\-> -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--             <div class="col-sm-6 padding-vert-5"> -->
+            <!--                 <strong>Office Tel.:</strong>&nbsp;318-257-5109 -->
+            <!--             </div> -->
+            <!--             <div class="col-sm-6 text-right padding-vert-5"> -->
+            <!--                 <strong>Email:</strong>&nbsp;yxiao@latech.edu -->
+            <!--             </div> -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+            <!-- End Phone/Email -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--                     <img src="assets/img/three_logo.png" alt="Logo" />		 -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
 
-<p>(37). Yang Xiao, Zhe Li, Tobias Misicko, Jeff T. Miller, Yue Wu, Arvind Varma Atomically Thin Platinum Nanolayers on MXene for Catalytic Non-oxidative Coupling of Methane,
-  <em>The 27th International Symposium for Chemical Reaction Engineering (ISCRE 27)</em>, Quebec City, Quebec, Canada, June 11-14, <b>2023</b>.
-</p>
-
-<p>(36). Tobias Misicko and Yang Xiao Thermal Runaway of Catalytic Reactors: an Experimental,Modeling and Machine-Learning Study,
-  <em>Southeastern Catalysis Society 2023 Annual Symposium</em>, Tuscaloosa, AL, February 27 - 28, <b>2023</b>.
-</p>
-
-<p>(35). Yang Xiao, Tobias Misicko, Jeffrey Miller and Yue Wu, Atomically Thin Pt Nanolayer Catalysts Supported on Two-dimensional Molybdenum Titanium Carbide (MXene) for Shale Gas Conversion,
-  <em>Southeastern Catalysis Society 2023 Annual Symposium</em>, Tuscaloosa, AL, February 27 - 28, <b>2023</b>. 
-</p>
-
-<p>(34). Zhe Li, Yang Xiao, Prabudhya Chowdhury, Zhenwei Wu, Tao Ma, Johnny Zhuchen, Gang Wan, Tae-Hoon Kim, Dapeng Jing, Peilei He, Pratik Potdar, Lin Zhou, Zhenhua Zeng, Xiulin Ruan, Jeffrey T. Miller, Jeffrey Greeley, Yue Wu and Arvind Varma, Nonoxidation Coupling of Methane over NanoLayer Platinum Catalysts on Two-Dimensional Metal Carbides (MXenes),
-  <em>AIChE Annual Meeting</em>,
-Phoenix, AZ, November 13 - 18, <b>2022</b>.
-</p>
-  
-<p>(33). Yang Xiao, Anand Ramanathan, Bala Subramaniam and Arvind Varma, Guaiacol Hydrodeoxygenation and Hydrogenation over Bimetallic Pt-M (Nb, W, Zr)/KIT-6 Catalysts with Tunable Acidity,
-  <em>AIChE Annual Meeting</em>, Phoenix, AZ, November 13 - 18, <b>2022</b>.
-</p>
-
-<p>(32). Yang Xiao, Pratik Potdar, Kaida Liu, Arvind Varma and Guomin Xiao A Machine Learning Tool for Thermal Runaway Prediction of Chemical Reactors,
-  <em>AIChE Annual Meeting (Virtual)</em>, November 16 - 20, <b>2020</b>.
-</p>
-  
-<p>(31). Yang Xiao, Feng Jiang, Guomin Xiao and Arvind Varma, CO<sub>2</sub> Hydrogenation to Ethanol over Pd/Bi<sub>2</sub>O<sub>3</sub> Catalysts: The Synergistic Effect of Pd Particle Size and Surface Oxygen Vacancy,
-  <em>AIChE Annual Meeting (Virtual)</em>, November 16 - 20, <b>2020</b>.
-  </p>
-  
-<p>(30). Yang Xiao and Arvind Varma,
-Parametric Sensitivity and Runaway in Fixed-Bed Reactors: Example of Methanol Selective Oxidation over Pt-Bi Catalysts,
-<em>AIChE Annual Meeting</em>, Orlando, Florida, November 10-15, <b>2019</b>.</p>
-
-<p>(29). Yang Xiao, Anand Ramanathan, Bala Subramaniam and Arvind Varma,
-Enhanced Aromatic Selectivity during Deoxygenation of Phenolic Model Compounds over Bifunctional Catalysts,
-<em>AIChE Annual Meeting</em>, Orlando, Florida, November 10-15, <b>2019</b>.</p>
-
-<p>(28). Yang Xiao, Anand Ramanathan, Bala Subramaniam and Arvind Varma,
-Enhanced Aromatic Selectivity during Deoxygenation of Phenolic Model Compounds over Bifunctional Catalysts,
-<em>2019 North American Catalysis Society Meeting (NAM26)</em>,
-Chicago, Illinois, June 23-28, <b>2019</b>.</p>
-
-<p>(27). Johnny ZhuChen, Zhenwei Wu, Slgi Choi, Yang Xiao, Arvind Varma, Wei Liu, Guanghui Zhang and Jeffrey T. Miller,
-  Structure Determination of Nanoscale Pt3Bi Intermetallic Alloy Catalysts for Non-Oxidative Coupling of Methane and Propane Dehydrogenation,
-  <em>2019 North American Catalysis Society Meeting (NAM26)</em>,
-Chicago, Illinois, June 23-28, <b>2019</b>.</p>
-
-<p>(26). Yang Xiao and Arvind Varma,
-A Mechanistic Study of Glycerol Conversion to Aromatic Hydrocarbons over Bifunctional Metal-Supported H-ZSM-5 Catalysts,
-<em>The 4th North American Symposium for Chemical Reaction Engineering (NASCRE4)</em>,
-invited talk in honor of Prof. Dan Luss's contributions to the field of chemical reaction engineering,
-Houston, Texas, March 10-13, <b>2019</b>.
-</p>
-
-<p>(25). Yang Xiao and Arvind Varma,
-Highly Selective Nonoxidative Coupling of Methane (NOCM) over Pt-Bi Bimetallic Catalysts,
-<em>AIChE Annual Meeting</em>, Pittsburgh, Pennsylvania, October 28 - November 2, <b>2018</b>.</p>
-
-<p>(24). Arvind Varma and Yang Xiao,
-Bio-Oil Upgrading Using Methane: A Mechanistic Study of Model Compound Guaiacol Reactions over Pt-Bi Bimetallic Catalysts,
-invited talk in honor of Prof. Doraiswami Ramkrishna's contributions to the field of chemical reaction engineering,
-<em>AIChE Annual Meeting</em>, Pittsburgh, Pennsylvania, October 28 - November 2, <b>2018</b>.</p>
-
-<p>(23). Yang Xiao, Yuan Wang and Arvind Varma,
-Methanol Conversion to Formaldehyde at Low Temperatures over Pt-Bi Bimetallic Catalysts,
-<em>AIChE Annual Meeting</em>, Pittsburgh, Pennsylvania, October 28 - November 2, <b>2018</b>.</p>
-
-<p>(22). Yang Xiao and Arvind Varma,
-Bimetallic Catalysis for Various Shale Gas and Biomass Conversions,
-<em>AIChE Annual Meeting</em>, Pittsburgh, Pennsylvania, October 28 - November 2, <b>2018</b>.</p>
-
-<p>(21). Rexonni B. Lagare, Yang Xiao and Arvind Varma,
-Direct Catalytic Conversion of Methane to Liquid Oxygenates
-<em>CISTAR Biannual Meeting</em>, Albuquerque, NM, October 3-5, <b>2018</b>.</p>
-
-<p>(20). Yang Xiao and Arvind Varma,
-Upgrading Bio-Oil Model Compound over Pt-Based Catalysts: A Comparative Study Using Hydrogen and Methane,
-<em>International Symposium on Chemical Reaction Engineering (ISCRE-25)</em>, Florence, Italy, May 20 - 23, <b>2018</b>.</p>
-
-<p>(19). Yang Xiao and Arvind Varma,
-Highly Selective Nonoxidative Coupling of Methane (NOCM) over Pt-Bi Bimetallic Catalysts
-<em>The Catalysis Club of Chicago 2018 Spring Symposium</em>, Chicago, Illinois, May 11, <b>2018</b>.</p>
-
-<p>(18). Yang Xiao, Yuan Wang and Arvind Varma,
-Low-Temperature Selective Oxidation of Methanol to Formaldehyde over Pt-Bi Bimetallic Catalysts,
-<em>39th Annual Michigan Catalysis Society Spring Symposium</em>, Midland, Michigan, May 3, <b>2018</b>.</p>
-
-<p>(17). Lindsey Blanshan, Yang Xiao and Arvind Varma,
-Catalytic Conversion of Biomass Model Compounds to Biofuels over Pt-based Supported Catalysts,
-<em>AIChE North Central Regional Conference</em>, West Lafayette, IN, April 6 - 7, <b>2018</b>.</p>
-
-<p>(16). Yang Xiao and Arvind Varma, Insight and Applications of Pt-Bi Bimetallic Catalysts: A Combined Experimental and DFT Study,
-  <em>AIChE Annual Meeting</em>, Minneapolis, MN, October 29 - November 3, <b>2017</b>.</p>
-
-<p>(15). Yang Xiao and Arvind Varma, Kinetics of Glycerol Conversion to Hydrocarbon Fuels over Pd/H-ZSM-5 Catalysts,
-  <em>AIChE Annual Meeting</em>, Minneapolis, MN, October 29 - November 3, <b>2017</b>.</p>
-
-
-<p>(14). Yang Xiao and Arvind Varma, Kinetics of Guaiacol Deoxygenation Using Methane over Pt-Bi Catalyst,
-  <em>25th North American Catalysis Society Meeting</em>, Denver, CO, June 4-9, <b>2017</b>.</p>
-
-</p>(13). Yang Xiao and Arvind Varma,
-Glycerol to Hydrocarbon Fuels Via Bifunctional Catalysts,
-<em>AIChE Annual Meeting</em>, San Francisco, CA, November 13-18, <b>2016</b>. </p>
-
-
-<p>(12). Xiaohong Wang, Yang Xiao and Arvind Varma, Controllable Solution Combustion Synthesis of Nanoscale α/β-Bi<sub>2</sub>O<sub>3</sub> and Its Catalytic Applicationility,
-  <em>AIChE Annual Meeting</em>, San Francisco, CA, November 13-18, 2016.</p>
-
-<p>(11). Yang Xiao and Arvind Varma, Glycerol to Hydrocarbon Fuels Via Bifunctional Catalysts,
-  <em>AIChE Annual Meeting</em>, San Francisco, CA, November 13-18, <b>2016</b>.</p>
-
-<p>(10).  Yang Xiao and Arvind Varma, Guaiacol Deoxygenation Using Methane over Pt-Bi Catalysts: Reaction Pathways and Kinetics,
-  <em>AIChE Annual Meeting</em>, San Francisco, CA, November 13-18, 2016.</p>
-
-<p>(9). Yang Xiao and Arvind Varma, Insight into Pt-Bi Bimetallic Catalysts for Tuning Selectivity and Improving Stability,
-  <em>International Symposium on Chemical Reaction Engineering (ISCRE-24)</em>, Minneapolis, MN, June 12-15, <b>2016</b>.</p>
-
-<p>(8). Yang Xiao and Arvind Varma, Catalytic Deoxygenation of Guaiacol Using Methane,
-  <em>AIChE Annual Meeting</em>, Salt Lake City, UT, November 8-13, <b>2015</b></p>
-
-<p>(7). Yang Xiao, Zhi-Jian Zhao, Jeffrey Greeley and Arvind Varma, An Experimental and Theoretical Study of Glycerol Selective Oxidation to 1,3-Dihydroxyacetone Via Bimetallic Platinum-Bismuth Catalysts,
-  <em>AIChE Annual Meeting</em>, Salt Lake City, UT, November 8-13, <b>2015</b>.</p>
-
-<p>(6). Yang Xiao, Zhi-Jian Zhao, Jeffrey Greeley and Arvind Varma, An Experimental and Theoretical Study of Glycerol Selective Oxidation to 1,3-Dihydroxyacetone via Bimetallic Platinum-Bismuth Catalysts,
-  <em>AIChE 7th Annual Midwest Regional Conference</em>, Chicago, IL, March 12-13, <b>2015</b>.</p>
-
-<p>(5). Yang Xiao, Guomin Xiao and Arvind Varma, Experimental and Simulation Study of a Universal Procedure for Crude Glycerol Purification From Different Feedstocks in Biodiesel Production,
-  <em>AIChE Annual Meeting</em>, San Francisco, CA, November 3-8, <b>2013</b>.</p>
-
-<p>(4). Yang Xiao and Arvind Varma, Experimental and Simulation Study of Crude Glycerol Purification from Different Feedstocks in Biodiesel Production,
-  <em>246th ACS National Meeting</em>, Indianapolis, IN, September 8-12, <b>2013</b>.</p>
-
-<p>(3). Yang Xiao, Haoyang Li, Guomin Xiao, Lijing Gao and Xiaomei Pan, Simulation of the Catalytic Reactive Distillation Process for Biodiesel Production via Transesterification,
-  <em>International Conference on Renewable Energy and Environmental Materials</em>,
-  Beijing, China, May 21-23, <b>2012</b>.</p>
-
-<p>(2). Lijing Gao, Guomin Xiao and Yang Xiao, Study on Intrinsic Kinetics of Transesterification Reaction Catalyzed by Solid Base in Fixed Bed Reactor,
-  <em>The 6th National Conference on Chemical Engineering and Biochemistry</em>,
-  Changsha, China, October 29-31, <b>2010</b>.<p>
-
-
-<p>(1). Yang Xiao, Lijing Gao, Guomin Xiao and Jianhua Lv, Kinetics of Transesterification Reaction Catalyzed by Solid Base in Fixed Bed Reactor,
-  <em>International Conference on Chemical and Biological Utilization of Biomass Resources (ICCUB2010)</em>, Nanjing, China, October 22-26, <b>2010</b>.</p>
-
-</h3>
-</div>
-                        <!-- End Main Column -->
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="http://www2.latech.edu/~yxiao/" title="Homepage">
+                                <img src="assets/img/LOGO8.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
                     </div>
                 </div>
             </div>
+            <!-- End Header -->
+	    
+            <!-- Top Menu -->
+            <!-- <div id="hornav" class="bottom-border-shadow">  -->
+                <div class="container no-padding border-bottom"> 
+                    <div class="row"> 
+                            <div class="visible-lg">
+                                <ul id="hornavmenu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://www2.latech.edu/~yxiao/" class="fa-home active">Home</a>
+                                    </li>
+				    <!-- <li> -->
+				    <!--   <a href="Biography.html" class="fa-star active">PI:Xiao</a> -->
+                                    <!-- </li> -->
+                                    <li>
+				      <div class="dropdown">
+                                      <a href="Graduate_Members.html" class="fa-user active" >Members</a>
+					<div class="dropdown-content">
+					  <p><a href="Biography.html">PI: Dr. Xiao</a></p>
+ 					  <p><a href="Associates.html">Postdocs</a></p>
+					  <p><a href="Graduate_Members.html">Graduate Students</a></p>
+					  <p><a href="UG_Members.html">UG Students</a></p>
+					  <p><a href="Alumni.html">Alumni</a></p>
+					</div>
+				      </div>
+				    </li>
+
+                                    <li>
+                                      <a href="Research.html" class="fa-heart active">Research</a>
+				    </li>
+                                    <li>
+   				      <div class="dropdown">
+                                        <a href="Publications.html" class="fa-list active">Publications</a>
+					<div class="dropdown-content">
+					  <p><a href="Journal_Articles.html">Journal Articles </a></p>
+					  <p><a href="Conference_Presentations.html">Conference Presentations</a></p>
+					</div>
+				      </div>
+                                    </li>
+                                    <li>
+				      <div class="dropdown">
+                                        <a href="Patents.html" class="fa-bar-chart active">Patents</a>
+					<div class="dropdown-content">
+					  <p><a href="Licensed_Patents.html">Licensed Patents</a></p>
+					  <p><a href="Granted_Patents.html">Granted Patents</a></p>
+					  <p><a href="Patent_Applications.html">Patent Applications</a></p>
+					</div>
+				      </div>
+                                    </li>
+				    <li>
+				      <a href="Resources.html" class="fa-camera active">Resources</a>
+				    </li>			    
+			            <li>
+				      <a href="Courses.html" class="fa-pencil active">Teaching</a>
+				    </li>
+			            <li>
+				      <div class="dropdown">
+                                        <a href="Outreach.html" class="fa-road active">Photos & Media</a>
+					<div class="dropdown-content">
+					  <p><a href="Group_photos.html">Group Photos</a></p>
+					  <p><a href="Media_reports.html">Media Reports</a></p>
+					  <p><a href="Outreach.html">Outreach</a></p>
+					</div>
+				      </div>
+
+				      
+				    </li>
+			            <li>
+				      <a href="Contact.html" class="fa-info active">Contact</a>
+				    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- End Top Menu -->
+            <!-- === END HEADER === -->
+	    
+
+
+
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Xiao Research Group - Louisiana Tech University - A Reaction Engineering and Catalysis Science Laboratory</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Prof. Xiao's Group Website">
+        <meta name="author" content="Prof. Yang Xiao">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css?v=20171205135800" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+	<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* background-color: #193a3d; */
+  /* color:#193a3d; */
+  color:#ffffff;
+  text-align:center;
+  /* background-color: #193a3d; */
+  padding: 12px 12px;
+}
+
+.dropdown-content {
+  /* text-align:center */
+  display: none;
+  position: relative;
+  line-height: 5px;
+  background-color:#bbbbbb;
+  min-width: 1 px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  padding: 8px 8px;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ============ Mobile: enlarge top logo & trim blank space ============ */
+@media (max-width: 767px) {
+  #header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  #header .logo {
+    float: none !important;
+    margin: 6px 0 !important;
+    text-align: center;
+  }
+
+  #header .logo img {
+    width: 94% !important;
+    max-width: 560px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+</style>
+    </head>
+
+    <body>
+        <!-- <div id="body-bg"> -->
+            <!-- <\!-- Phone/Email -\-> -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--             <div class="col-sm-6 padding-vert-5"> -->
+            <!--                 <strong>Office Tel.:</strong>&nbsp;318-257-5109 -->
+            <!--             </div> -->
+            <!--             <div class="col-sm-6 text-right padding-vert-5"> -->
+            <!--                 <strong>Email:</strong>&nbsp;yxiao@latech.edu -->
+            <!--             </div> -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+            <!-- End Phone/Email -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--                     <img src="assets/img/three_logo.png" alt="Logo" />		 -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="http://www2.latech.edu/~yxiao/" title="Homepage">
+                                <img src="assets/img/LOGO8.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+	    
+            <!-- Top Menu -->
+            <!-- <div id="hornav" class="bottom-border-shadow">  -->
+                <div class="container no-padding border-bottom"> 
+                    <div class="row"> 
+                            <div class="visible-lg">
+                                <ul id="hornavmenu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://www2.latech.edu/~yxiao/" class="fa-home active">Home</a>
+                                    </li>
+				    <!-- <li> -->
+				    <!--   <a href="Biography.html" class="fa-star active">PI:Xiao</a> -->
+                                    <!-- </li> -->
+                                    <li>
+				      <div class="dropdown">
+                                      <a href="Graduate_Members.html" class="fa-user active" >Members</a>
+					<div class="dropdown-content">
+					  <p><a href="Biography.html">PI: Dr. Xiao</a></p>
+ 					  <p><a href="Associates.html">Postdocs</a></p>
+					  <p><a href="Graduate_Members.html">Graduate Students</a></p>
+					  <p><a href="UG_Members.html">UG Students</a></p>
+					  <p><a href="Alumni.html">Alumni</a></p>
+					</div>
+				      </div>
+				    </li>
+
+                                    <li>
+                                      <a href="Research.html" class="fa-heart active">Research</a>
+				    </li>
+                                    <li>
+   				      <div class="dropdown">
+                                        <a href="Publications.html" class="fa-list active">Publications</a>
+					<div class="dropdown-content">
+					  <p><a href="Journal_Articles.html">Journal Articles </a></p>
+					  <p><a href="Conference_Presentations.html">Conference Presentations</a></p>
+					</div>
+				      </div>
+                                    </li>
+                                    <li>
+				      <div class="dropdown">
+                                        <a href="Patents.html" class="fa-bar-chart active">Patents</a>
+					<div class="dropdown-content">
+					  <p><a href="Licensed_Patents.html">Licensed Patents</a></p>
+					  <p><a href="Granted_Patents.html">Granted Patents</a></p>
+					  <p><a href="Patent_Applications.html">Patent Applications</a></p>
+					</div>
+				      </div>
+                                    </li>
+				    <li>
+				      <a href="Resources.html" class="fa-camera active">Resources</a>
+				    </li>			    
+			            <li>
+				      <a href="Courses.html" class="fa-pencil active">Teaching</a>
+				    </li>
+			            <li>
+				      <div class="dropdown">
+                                        <a href="Outreach.html" class="fa-road active">Photos & Media</a>
+					<div class="dropdown-content">
+					  <p><a href="Group_photos.html">Group Photos</a></p>
+					  <p><a href="Media_reports.html">Media Reports</a></p>
+					  <p><a href="Outreach.html">Outreach</a></p>
+					</div>
+				      </div>
+
+				      
+				    </li>
+			            <li>
+				      <a href="Contact.html" class="fa-info active">Contact</a>
+				    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- End Top Menu -->
+            <!-- === END HEADER === -->
+	    
+
+
+
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+
+
+            <!-- === BEGIN FOOTER === -->
+            <div id="base">
+                <div class="container bottom-border padding-vert-30">
+                    <div class="row">
+
+                        <!-- Column 1: visit counter -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Total visits since 2024</h3>
+                            <!-- Original counters-free.net counter (id cxxp), in an
+                                 iframe because its document.write only works inside
+                                 a real document, not in jQuery-injected HTML. -->
+                            <iframe title="Visit counter"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    src="VisitorCounter.html"
+                                    style="width: 120px; height: 95px; border: 0; overflow: hidden; display: block;"
+                                    srcdoc='<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;background:transparent;overflow:hidden}</style></head><body><script src="https://www.counters-free.net/count/cxxp"></script></body></html>'></iframe>
+                        </div>
+                        <!-- End Column 1 -->
+
+                        <!-- Columns 2-3: links -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-tasks" href="https://www.aiche.org/community/sites/divisions/cre">AIChE - Catalysis and Reaction Engineering (CRE) Division</a>
+                                </li>
+                                <li>
+                                    <a class="fa-users" href="http://nacatsoc.org/">North American Catalysis Society (NACS)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 margin-bottom-20">
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-signal" href="https://www.acs-catalysis.org/">ACS - Catalysis Science &amp; Technology Division</a>
+                                </li>
+                                <li>
+                                    <a class="fa-coffee" href="https://iscre.org/">International Symposia on Chemical Reaction Engineering (ISCRE)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End links -->
+
+                        <!-- Column 4: visitor map (MapMyVisitors, ClustrMaps successor),
+                             loaded from VisitorGlobe.html so the widget runs in a
+                             real document on this domain. -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <iframe title="Visitor map"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    src="VisitorGlobe.html"
+                                    style="width: 100%; max-width: 280px; height: 200px; border: 0; overflow: hidden; display: block;"></iframe>
+                        </div>
+                        <!-- End Column 4 -->
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="footer" class="background-grey">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Menu -->
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/yang-xiao-21292479?trk=hp-identity-name" target="_blank">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="https://scholar.google.com/citations?user=BqSIROwAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57196394980" target="_blank">Scopus</a>
+                                </li>
+                                <li>
+                                    <a href="https://orcid.org/0000-0003-1705-2213">ORCID</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.latech.edu/directory/yang-xiao.html" target="_blank">Dr. Xiao's Louisiana Tech Faculty Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Footer Menu -->
+                        <!-- Copyright -->
+                        <div id="copyright" class="col-md-4">
+                            <p class="pull-right">(c) Since 2022</p>
+                        </div>
+                        <!-- End Copyright -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer -->
+
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
 
     </body>
 </html>

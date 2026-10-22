@@ -5,25 +5,331 @@
 <!--[if !IE]><!-->
 <html lang="en">
     <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Xiao Research Group - Louisiana Tech University - A Reaction Engineering and Catalysis Science Laboratory</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Prof. Xiao's Group Website">
+        <meta name="author" content="Prof. Yang Xiao">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css?v=20171205135800" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+	<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* background-color: #193a3d; */
+  /* color:#193a3d; */
+  color:#ffffff;
+  text-align:center;
+  /* background-color: #193a3d; */
+  padding: 12px 12px;
+}
+
+.dropdown-content {
+  /* text-align:center */
+  display: none;
+  position: relative;
+  line-height: 5px;
+  background-color:#bbbbbb;
+  min-width: 1 px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  padding: 8px 8px;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ============ Mobile: enlarge top logo & trim blank space ============ */
+@media (max-width: 767px) {
+  #header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  #header .logo {
+    float: none !important;
+    margin: 6px 0 !important;
+    text-align: center;
+  }
+
+  #header .logo img {
+    width: 94% !important;
+    max-width: 560px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+</style>
+    </head>
+
+    <body>
+        <!-- <div id="body-bg"> -->
+            <!-- <\!-- Phone/Email -\-> -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--             <div class="col-sm-6 padding-vert-5"> -->
+            <!--                 <strong>Office Tel.:</strong>&nbsp;318-257-5109 -->
+            <!--             </div> -->
+            <!--             <div class="col-sm-6 text-right padding-vert-5"> -->
+            <!--                 <strong>Email:</strong>&nbsp;yxiao@latech.edu -->
+            <!--             </div> -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+            <!-- End Phone/Email -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--                     <img src="assets/img/three_logo.png" alt="Logo" />		 -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="http://www2.latech.edu/~yxiao/" title="Homepage">
+                                <img src="assets/img/LOGO8.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+	    
+            <!-- Top Menu -->
+            <!-- <div id="hornav" class="bottom-border-shadow">  -->
+                <div class="container no-padding border-bottom"> 
+                    <div class="row"> 
+                            <div class="visible-lg">
+                                <ul id="hornavmenu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://www2.latech.edu/~yxiao/" class="fa-home active">Home</a>
+                                    </li>
+				    <!-- <li> -->
+				    <!--   <a href="Biography.php" class="fa-star active">PI:Xiao</a> -->
+                                    <!-- </li> -->
+                                    <li>
+				      <div class="dropdown">
+                                      <a href="Graduate_Members.php" class="fa-user active" >Members</a>
+					<div class="dropdown-content">
+					  <p><a href="Biography.php">PI: Dr. Xiao</a></p>
+ 					  <p><a href="Associates.php">Postdocs</a></p>
+					  <p><a href="Graduate_Members.php">Graduate Students</a></p>
+					  <p><a href="UG_Members.php">UG Students</a></p>
+					  <p><a href="Alumni.php">Alumni</a></p>
+					</div>
+				      </div>
+				    </li>
+
+                                    <li>
+                                      <a href="Research.php" class="fa-heart active">Research</a>
+				    </li>
+                                    <li>
+   				      <div class="dropdown">
+                                        <a href="Publications.php" class="fa-list active">Publications</a>
+					<div class="dropdown-content">
+					  <p><a href="Journal_Articles.php">Journal Articles </a></p>
+					  <p><a href="Conference_Presentations.php">Conference Presentations</a></p>
+					</div>
+				      </div>
+                                    </li>
+                                    <li>
+				      <div class="dropdown">
+                                        <a href="Patents.php" class="fa-bar-chart active">Patents</a>
+					<div class="dropdown-content">
+					  <p><a href="Licensed_Patents.php">Licensed Patents</a></p>
+					  <p><a href="Granted_Patents.php">Granted Patents</a></p>
+					  <p><a href="Patent_Applications.php">Patent Applications</a></p>
+					</div>
+				      </div>
+                                    </li>
+				    <li>
+				      <a href="Resources.php" class="fa-camera active">Resources</a>
+				    </li>			    
+			            <li>
+				      <a href="Courses.php" class="fa-pencil active">Teaching</a>
+				    </li>
+			            <li>
+				      <div class="dropdown">
+                                        <a href="Outreach.php" class="fa-road active">Photos & Media</a>
+					<div class="dropdown-content">
+					  <p><a href="Group_photos.php">Group Photos</a></p>
+					  <p><a href="Media_reports.php">Media Reports</a></p>
+					  <p><a href="Outreach.php">Outreach</a></p>
+					</div>
+				      </div>
+
+				      
+				    </li>
+			            <li>
+				      <a href="Contact.php" class="fa-info active">Contact</a>
+				    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- End Top Menu -->
+            <!-- === END HEADER === -->
+	    
+
+
+
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<body>
+            <div id="slideshow" class="bottom-border-shadow">
+                <div class="container no-padding background-white bottom-border">
+                    <div class="row">
+                        <!-- Carousel Slideshow -->
+                        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example" data-slide-to="1"></li>
+                                <li data-target="#carousel-example" data-slide-to="2"></li>
+                            </ol>
+                            <div class="clearfix"></div>
+                            <!-- End Carousel Indicators -->
+                            <!-- Carousel Images -->
+                            <div class="carousel-inner">
+			        <div class="item active">
+                                    <img src="assets/img/slideshow/slide06.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide01.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide_runaway.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide02.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide04.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide05.png">
+                                </div>
+                            </div>
+                            <!-- End Carousel Images -->
+                            <!-- Carousel Controls -->
+                            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                            <!-- End Carousel Controls -->
+                        </div>
+                        <!-- End Carousel Slideshow -->
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
 
     <body>
 
             <div id="icons" class="bottom-border-shadow">
+              <div class="container background-grey bottom-border">
+		<h1>Research Directions:</h1>
+                    <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-scissors fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Methane Activation </h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-magic fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Hydrogen Generation</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-rocket fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Sustainable Fuels</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="icons" class="bottom-border-shadow">
                 <div class="container background-grey bottom-border">
+		<h1>Research Approach:</h1>
+                     <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-compass fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Measurement of Reaction Kinetics</h2>
 
-		 <p> </p> 
-		 <p> </p> 
-<h3>Prof. Xiao's group focuses on the fundamental research of catalysis science and reaction engineering for producing sustainable chemicals and fuels. The ongoing transition from fossil-based energy resources to alternative energy sources such as shale gas and biomass urgently requires the development of next-generation catalysts and catalytic processes. To move forward, it is imperative to bridge the relatively wide gap between fundamental research of catalysis science (active site requirements and turnover frequencies) and the ability to transfer knowledge to practical innovation, which is essentially based on the discipline of chemical reaction engineering. Our research typically involves combined experimental and modeling studies, for example, the precise measurement of intrinsic kinetics in the lab and First-Principles predictions of surface reaction kinetics. The current research is financially supported by the Louisiana Space Grant Consortium (LaSPACE, a NASA EPSCoR center), the Louisiana Materials Design Alliance (LAMDA, supported by NSF EPSCoR and Louisiana Board of Regents), and the start-up funds provided by Louisiana Tech's College of Engineering and Science.
-</h3>
-		 <p> </p> 
-		 <p> </p>
-		 <center>
-		   <img alt="image1" src="assets/img/frontpage/Word_Cloud3.png", class="center">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-desktop fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">DFT Calculations</h2>
 
-                 <p> </p>
-		 
-                 <p> Research Word Cloud </p>
-		 </center>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-glass fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">In-situ/Operando Characterization</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="icons" class="bottom-border-shadow">
+                <div class="container background-grey bottom-border">
+		<h1>Research Focus: </h1>
+                    <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-clock-o fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Kinetic Modeling</h2>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-fire fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Heat and Mass Transfer</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-sun-o fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn"> Reactor Safety</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
                 </div>
             </div>
 
@@ -31,3 +337,635 @@
     </body>
 </html>
 
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Xiao Research Group - Louisiana Tech University - A Reaction Engineering and Catalysis Science Laboratory</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Prof. Xiao's Group Website">
+        <meta name="author" content="Prof. Yang Xiao">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css?v=20171205135800" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+	<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* background-color: #193a3d; */
+  /* color:#193a3d; */
+  color:#ffffff;
+  text-align:center;
+  /* background-color: #193a3d; */
+  padding: 12px 12px;
+}
+
+.dropdown-content {
+  /* text-align:center */
+  display: none;
+  position: relative;
+  line-height: 5px;
+  background-color:#bbbbbb;
+  min-width: 1 px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  padding: 8px 8px;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ============ Mobile: enlarge top logo & trim blank space ============ */
+@media (max-width: 767px) {
+  #header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  #header .logo {
+    float: none !important;
+    margin: 6px 0 !important;
+    text-align: center;
+  }
+
+  #header .logo img {
+    width: 94% !important;
+    max-width: 560px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+</style>
+    </head>
+
+    <body>
+        <!-- <div id="body-bg"> -->
+            <!-- <\!-- Phone/Email -\-> -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--             <div class="col-sm-6 padding-vert-5"> -->
+            <!--                 <strong>Office Tel.:</strong>&nbsp;318-257-5109 -->
+            <!--             </div> -->
+            <!--             <div class="col-sm-6 text-right padding-vert-5"> -->
+            <!--                 <strong>Email:</strong>&nbsp;yxiao@latech.edu -->
+            <!--             </div> -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+            <!-- End Phone/Email -->
+            <!-- <div id="pre-header" class="background-gray-lighter"> -->
+            <!--     <div class="container no-padding"> -->
+            <!--         <div class="row hidden-xs"> -->
+            <!--                     <img src="assets/img/three_logo.png" alt="Logo" />		 -->
+            <!--         </div> -->
+            <!--     </div> -->
+            <!-- </div> -->
+
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="http://www2.latech.edu/~yxiao/" title="Homepage">
+                                <img src="assets/img/LOGO8.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+	    
+            <!-- Top Menu -->
+            <!-- <div id="hornav" class="bottom-border-shadow">  -->
+                <div class="container no-padding border-bottom"> 
+                    <div class="row"> 
+                            <div class="visible-lg">
+                                <ul id="hornavmenu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://www2.latech.edu/~yxiao/" class="fa-home active">Home</a>
+                                    </li>
+				    <!-- <li> -->
+				    <!--   <a href="Biography.php" class="fa-star active">PI:Xiao</a> -->
+                                    <!-- </li> -->
+                                    <li>
+				      <div class="dropdown">
+                                      <a href="Graduate_Members.php" class="fa-user active" >Members</a>
+					<div class="dropdown-content">
+					  <p><a href="Biography.php">PI: Dr. Xiao</a></p>
+ 					  <p><a href="Associates.php">Postdocs</a></p>
+					  <p><a href="Graduate_Members.php">Graduate Students</a></p>
+					  <p><a href="UG_Members.php">UG Students</a></p>
+					  <p><a href="Alumni.php">Alumni</a></p>
+					</div>
+				      </div>
+				    </li>
+
+                                    <li>
+                                      <a href="Research.php" class="fa-heart active">Research</a>
+				    </li>
+                                    <li>
+   				      <div class="dropdown">
+                                        <a href="Publications.php" class="fa-list active">Publications</a>
+					<div class="dropdown-content">
+					  <p><a href="Journal_Articles.php">Journal Articles </a></p>
+					  <p><a href="Conference_Presentations.php">Conference Presentations</a></p>
+					</div>
+				      </div>
+                                    </li>
+                                    <li>
+				      <div class="dropdown">
+                                        <a href="Patents.php" class="fa-bar-chart active">Patents</a>
+					<div class="dropdown-content">
+					  <p><a href="Licensed_Patents.php">Licensed Patents</a></p>
+					  <p><a href="Granted_Patents.php">Granted Patents</a></p>
+					  <p><a href="Patent_Applications.php">Patent Applications</a></p>
+					</div>
+				      </div>
+                                    </li>
+				    <li>
+				      <a href="Resources.php" class="fa-camera active">Resources</a>
+				    </li>			    
+			            <li>
+				      <a href="Courses.php" class="fa-pencil active">Teaching</a>
+				    </li>
+			            <li>
+				      <div class="dropdown">
+                                        <a href="Outreach.php" class="fa-road active">Photos & Media</a>
+					<div class="dropdown-content">
+					  <p><a href="Group_photos.php">Group Photos</a></p>
+					  <p><a href="Media_reports.php">Media Reports</a></p>
+					  <p><a href="Outreach.php">Outreach</a></p>
+					</div>
+				      </div>
+
+				      
+				    </li>
+			            <li>
+				      <a href="Contact.php" class="fa-info active">Contact</a>
+				    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- End Top Menu -->
+            <!-- === END HEADER === -->
+	    
+
+
+
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<body>
+            <div id="slideshow" class="bottom-border-shadow">
+                <div class="container no-padding background-white bottom-border">
+                    <div class="row">
+                        <!-- Carousel Slideshow -->
+                        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example" data-slide-to="1"></li>
+                                <li data-target="#carousel-example" data-slide-to="2"></li>
+                            </ol>
+                            <div class="clearfix"></div>
+                            <!-- End Carousel Indicators -->
+                            <!-- Carousel Images -->
+                            <div class="carousel-inner">
+			        <div class="item active">
+                                    <img src="assets/img/slideshow/slide06.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide01.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide_runaway.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide02.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide04.png">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slideshow/slide05.png">
+                                </div>
+                            </div>
+                            <!-- End Carousel Images -->
+                            <!-- Carousel Controls -->
+                            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                            <!-- End Carousel Controls -->
+                        </div>
+                        <!-- End Carousel Slideshow -->
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+
+    <body>
+
+            <div id="icons" class="bottom-border-shadow">
+              <div class="container background-grey bottom-border">
+		<h1>Research Directions:</h1>
+                    <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-scissors fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Methane Activation </h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-magic fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Hydrogen Generation</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-rocket fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Sustainable Fuels</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="icons" class="bottom-border-shadow">
+                <div class="container background-grey bottom-border">
+		<h1>Research Approach:</h1>
+                     <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-compass fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Measurement of Reaction Kinetics</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-desktop fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">DFT Calculations</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-glass fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">In-situ/Operando Characterization</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="icons" class="bottom-border-shadow">
+                <div class="container background-grey bottom-border">
+		<h1>Research Focus: </h1>
+                    <div class="row padding-vert-60">
+                        <!-- Icons -->
+                        <div class="col-md-4 text-center">
+                            <i class="fa-clock-o fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Kinetic Modeling</h2>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-fire fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn">Heat and Mass Transfer</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="fa-sun-o fa-4x color-primary animate fadeIn"></i>
+                            <h2 class="padding-top-10 animate fadeIn"> Reactor Safety</h2>
+                        </div>
+                        <!-- End Icons -->
+                    </div>
+                </div>
+            </div>
+
+
+    </body>
+</html>
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+
+    <body>
+
+          <!-- Portfolio -->
+            <div id="portfolio" class="bottom-border-shadow">
+                <div class="container bottom-border">
+                  <div class="row padding-top-40">
+
+		    <h3> <b> Active Major Projects:</b> </h3>
+<p> </p>
+		    	<h3>
+<p><span>&#8226;</span> 69076-DNI5</a>: Semi-Hydrogenation of Acetylene to Ethylene over Two-Dimensional Catalysts (ACS-PRF). </p>
+		    	<p><span>&#8226;</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2414204"> CBET-2414204</a>: Understanding the Stability of Pt/MXene Catalysts for Ethane Dehydrogenation (NSF). </p>
+<p> <span>&#8226;</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2347475"> CBET-2347475</a>: Advancing Catalytic Conversion of Methane to Carbon-Free Hydrogen and Ethane (NSF). </p>
+<p><span>&#8226;</span> </a> First-Principles and Machine Learning Investigations of High-Entropy MXene Catalysts (LAMDA). </p>
+		    	<span>&#8226;</span> Adaptive Multi-Physics Engine for Reaction Engineering (DARPA). </p>
+<span>&#8226;</span> Crowded, Heterogeneous, Intracellular, and Multi-Scale Environments for Revolutionary Bio-Applications (DARPA).
+</p>
+
+		    	<!-- <p><span>&#8226;</span> </a> Computational Investigation of the Stability of High-Entropy MXene Catalysts (LAMDA). </p> -->
+
+</h3>
+
+
+		    <h3> <b> Followship and User Facility Projects:</b> </h3>
+<p> </p>
+		    	<h3>
+<p> <span>&#8226;</span> <a href="https://cnmsproposal.ornl.gov/noauth/proposal/list/active"> CNMS2025-A-02906</a>:  Imaging Two-dimensional MXene Catalysts Using ToF-SIMS (Oak Ridge National Laboratory). </p>
+<p> <span>&#8226;</span> Elucidation of the Active Site for  Hydrogen Generation from Methane over MXene Catalysts (U.S. Department of Energy, Office of Science Graduate Student Research Program, Awardee: Tobias K. Misicko).
+<p><span>&#8226;</span></a> Clean Hydrogen from Methane for Propulsion Engines (LaSPACE Undergraduate Research Assistantship, Awardee: Piper Smith). </p>
+<p><span>&#8226;</span></a> Photo-Thermo Catalysis for Converting CO<sub>2</sub> to Ethanol (LAMDA - Supervised Undergraduate Research Experiences, Awardee: Caroline Cresap). </p>
+
+
+
+		          <h3> We appreciate the financial support from the following funding agencies.<h3>
+			      
+                             <ul class="portfolio-group">
+                            <!-- Portfolio Item -->
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.nsf.gov/">
+                                    <figure class="animate fadeInLeft">
+                                        <img alt="image1" src="assets/img/frontpage/nsf.jpeg">
+                                        <figcaption>
+                                            <h3>U.S. National Science Foundation</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.nasa.gov/learning-resources/established-program-to-stimulate-competitive-research/">
+                                    <figure class="animate fadeInLeft">
+                                        <img alt="image2" src="assets/img/frontpage/NASA.jpeg">
+                                        <figcaption>
+                                            <h3>NASA EPSCoR</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+			    
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.ltrc.lsu.edu/">
+                                    <figure class="animate fadeInLeft">
+                                        <img alt="image3" src="assets/img/frontpage/LTRC2.png">
+                                        <figcaption>
+                                            <h3>Louisiana Transportation Research Center</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+			    </ul>
+
+                    </div>
+          <!--       </div> -->
+          <!--   <\!-- End Portfolio -\-> -->
+
+
+          <!-- <\!-- Portfolio -\-> -->
+          <!--       <div class="container bottom-border"> -->
+                  <div class="row padding-top-40">
+                             <ul class="portfolio-group">
+			    
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.acs.org/education/students/highschool/seed.html">
+                                    <figure class="animate fadeIn">
+                                        <img alt="image1" src="assets/img/frontpage/acs_seed.jpeg">
+                                        <figcaption>
+                                            <h3>ACS Project SEED Program</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://lamda.rsi.laregents.edu/">
+                                    <figure class="animate fadeIn">
+                                        <img alt="image2" src="assets/img/frontpage/lamda.png">
+                                        <figcaption>
+                                            <h3>Louisiana Materials Design Alliance</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.laregents.edu/">
+                                    <figure class="animate fadeInLeft">
+                                        <img alt="image3" src="assets/img/frontpage/bor.png">
+                                        <figcaption>
+                                            <h3>Louisiana Board of Regents</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+			     </ul>
+
+                  </div>
+
+
+                  <div class="row padding-top-40">
+                             <ul class="portfolio-group">
+			    
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://science.osti.gov/wdts/scgsr">
+                                    <figure class="animate fadeIn">
+                                        <img alt="image1" src="assets/img/frontpage/DOE_logo.jpeg">
+                                        <figcaption>
+                                            <h3>DOE SCGSR Program</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+                                <a href="https://www.acs.org/funding/grants/petroleum-research-fund.html">
+                                    <figure class="animate fadeIn">
+                                        <img alt="image2" src="assets/img/frontpage/ACSPRF.jpeg">
+                                        <figcaption>
+                                            <h3>ACS Petroleum Research Fund </h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+
+                            <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
+				  <a href="https://laspace.lsu.edu/">
+                                    <figure class="animate fadeInLeft">
+                                        <img alt="image3" src="assets/img/frontpage/laspace3.png">
+                                        <figcaption>
+                                            <h3>Louisiana Space Grant Consortium</h3>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+			     </ul>
+
+                    </div>
+
+		  
+                </div>
+            </div>
+            <!-- End Portfolio -->
+
+
+
+    </body>
+</html>
+<!-- === END FOOTER === -->
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+
+
+            <!-- === BEGIN FOOTER === -->
+            <div id="base">
+                <div class="container bottom-border padding-vert-30">
+                    <div class="row">
+
+                        <!-- Column 1: visit counter -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Total visits since 2024</h3>
+                            <!-- Original counters-free.net counter (id cxxp), in an
+                                 iframe because its document.write only works inside
+                                 a real document, not in jQuery-injected HTML. -->
+                            <iframe title="Visit counter"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    src="VisitorCounter.html"
+                                    style="width: 120px; height: 95px; border: 0; overflow: hidden; display: block;"
+                                    srcdoc='<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;background:transparent;overflow:hidden}</style></head><body><script src="https://www.counters-free.net/count/cxxp"></script></body></html>'></iframe>
+                        </div>
+                        <!-- End Column 1 -->
+
+                        <!-- Columns 2-3: links -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-tasks" href="https://www.aiche.org/community/sites/divisions/cre">AIChE - Catalysis and Reaction Engineering (CRE) Division</a>
+                                </li>
+                                <li>
+                                    <a class="fa-users" href="http://nacatsoc.org/">North American Catalysis Society (NACS)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 margin-bottom-20">
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-signal" href="https://www.acs-catalysis.org/">ACS - Catalysis Science &amp; Technology Division</a>
+                                </li>
+                                <li>
+                                    <a class="fa-coffee" href="https://iscre.org/">International Symposia on Chemical Reaction Engineering (ISCRE)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End links -->
+
+                        <!-- Column 4: visitor map (MapMyVisitors, ClustrMaps successor),
+                             loaded from VisitorGlobe.html so the widget runs in a
+                             real document on this domain. -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <iframe title="Visitor map"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    src="VisitorGlobe.html"
+                                    style="width: 100%; max-width: 280px; height: 200px; border: 0; overflow: hidden; display: block;"></iframe>
+                        </div>
+                        <!-- End Column 4 -->
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="footer" class="background-grey">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Menu -->
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/yang-xiao-21292479?trk=hp-identity-name" target="_blank">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="https://scholar.google.com/citations?user=BqSIROwAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57196394980" target="_blank">Scopus</a>
+                                </li>
+                                <li>
+                                    <a href="https://orcid.org/0000-0003-1705-2213">ORCID</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.latech.edu/directory/yang-xiao.php" target="_blank">Dr. Xiao's Louisiana Tech Faculty Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Footer Menu -->
+                        <!-- Copyright -->
+                        <div id="copyright" class="col-md-4">
+                            <p class="pull-right">(c) Since 2022</p>
+                        </div>
+                        <!-- End Copyright -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer -->
+
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+
+    </body>
+</html>
+<!-- === END FOOTER === -->
