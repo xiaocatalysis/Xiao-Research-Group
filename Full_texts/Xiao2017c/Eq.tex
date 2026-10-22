@@ -1,0 +1,108 @@
+\begin{equation} \label{Eq1}
+r_i=\frac{dF}{dW}
+\end{equation}
+\begin{equation} \label{Eq2}
+TOF_i=\frac{dF}{d\left(active~site\right)}=r_i \times \frac{M_{Pt}}{wt\% \cdot D\%}
+\end{equation}
+
+
+When differential operating conditions apply, reaction rates are obtained by Eq. (\ref{Eq3}).
+\begin{equation} \label{Eq3}
+r_i=F_{0} \times \frac{X}{W}
+\end{equation}
+
+
+\begin{equation} \label{Eq4}
+\frac{dF_{GUA}}{d_{W}}=-r_1-r_3-r_4
+\end{equation}
+\begin{equation} \label{Eq5}
+\frac{dF_{CAT}}{d_{W}}=r_1-r_2-r_5
+\end{equation}
+\begin{equation} \label{Eq6}
+\frac{dF_{CYC}}{d_{W}}=r_4+r_5
+\end{equation}
+\begin{equation} \label{Eq7}
+\frac{dF_{PHE}}{d_{W}}=r_2+r_3
+\end{equation}
+
+An overall material balance yields the following Eqs. (~\ref{Eq8} -~\ref{Eq10}).
+
+\begin{equation} \label{Eq8}
+F_{GUA}+F_{CAT}+F_{CYC}+F_{PHE}=F_{0}
+\end{equation}
+%\begin{equation} \label{Eq9}
+%P_{GUA}+P_{CAT}+P_{CYC}+P_{PHE}=P_{0}
+%\end{equation}
+\begin{equation} \label{Eq10}
+P_{i}=F_{i} \times \frac{P_{0}}{F_{0}}
+\end{equation}
+
+
+\begin{equation} \label{Eq11}
+r_1=k_1 P_{GUA}
+\end{equation}
+\begin{equation} \label{Eq12}
+r_2=k_2 P_{CAT}
+\end{equation}
+\begin{equation} \label{Eq13}
+r_5=k_5 P_{CAT}
+\end{equation}
+
+\begin{center}
+
+
+\begin{equation} \label{Eq22}
+\frac{dF_{GUA}}{d_{W}}=-r_1-r_3-r_4=-k_1 P_{GUA}^{n_1}-k_3 P_{GUA}^{n_3}-k_4 P_{GUA}^{n_4}
+\end{equation}
+\begin{equation} \label{Eq23}
+\frac{dF_{CAT}}{d_{W}}=r_1-r_2-r_5=-k_1 P_{GUA}^{n_1}-k_2 P_{CAT}^{n_2}-k_5 P_{CAT}^{n_5}
+\end{equation}
+\begin{equation} \label{Eq24}
+\frac{dF_{CYC}}{d_{W}}=r_4+r_5=k_4 P_{GUA}^{n_4}+k_5 P_{CAT}^{n_5}
+\end{equation}
+\begin{equation} \label{Eq25}
+\frac{dF_{PHE}}{d_{W}}=r_2+r_3=k_2 P_{CAT}^{n_2}+k_3 P_{GUA}^{n_3}
+\end{equation}
+
+
+\begin{equation} \label{Eq18}
+F_{GUA}=F_0,~F_{CAT}=0,~F_{PHE}=0~and~F_{CYC}=0,~when~W=0.
+\end{equation}
+
+\begin{equation} \label{Eq19}
+\sigma^2=\sum_{i}{w_i(F_{exp_i}-F_{pred_i})^2},
+\end{equation}
+
+
+\begin{equation} \label{Eq31}
+k=Aexp\left(-\frac{E_a}{RT}\right)
+\end{equation}
+
+
+\begin{tabbing}
+
+01\hspace*{50bp} \=02\hspace*{90bp} \=03\hspace*{50bp}\kill
+
+$A_i$  \> $[mol\left(s \cdot g_{cat}\right)]$   \> Pre-exponential factor of step i \\
+$D$  \> $[\%]$   \> Metal dispersion\\
+$Ea_i$  \> $[kJ/mol]$   \> Activation energy of step i \\
+$F_0$  \> $[mol/h]$   \> Feed flowrate \\
+$F_i$  \> $[mol/h]$   \> Flowrate of species i \\
+$k_i$  \> $[mol/(g_{cat} \cdot s \cdot atm^n) ]$   \> Reaction rate constant of step i when the reaction order is n\\
+$M_{Pt}$  \> $[kg/kmol]$   \> Molecular weight of Pt \\
+$N_i$  \> $[mol]$   \> Amount of species i \\
+$n_i$  \> $[mol]$   \> Reaction order of step  i \\
+$P_i$  \> $[atm]$   \> Partial pressure of species i \\
+$R$  \> $[J/\left(K \cdot mol \right)]$   \> Gas constant \\
+$r_i$  \> $[mol\left(s \cdot g_{cat}\right)]$  \> Reaction rate of step i \\
+$t$  \> $[s]$   \> Contact time \\
+$TOF_i$  \> $[s^{-1}]$  \> Turnover frequency of step i \\
+$W$  \> $[g]$   \> Catalyst packing amount\\
+$W_i$  \> $[-]$   \> weighting function for species i\\
+$wt$  \> $[\%]$   \> Metal loading percentage \\
+\end{tabbing}
+
+\section{Acknowledgments}
+This work was supported by the R. Games Slayter Fund.
+The authors thank Ms. Marina Lourencone for her valuable assistance.
+

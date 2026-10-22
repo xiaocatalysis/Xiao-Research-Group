@@ -1,0 +1,27 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Abstract}}{4}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Keywords}}{4}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Introduction}}{5}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Experimental}}{6}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Materials, Catalyst Preparation and Characterization}}{6}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{Kinetic Measurements and Product Analysis}}{7}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-7000}{QQ2-1-7}{Results and Discussion}}{9}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-8000}{QQ2-1-8}{Proposed Reaction Pathways}}{9}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-9000}{QQ2-1-9}{Absence of Mass and Heat Transfer Effects}}{10}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-10000}{QQ2-1-10}{Kinetic Model Development}}{10}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-11000}{QQ2-1-11}{Glycerol to Oxygenates (Step R1)}}{15}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-12000}{QQ2-1-12}{Oxygenates as Reactant (Steps R2 and R3)}}{16}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-13000}{QQ2-1-13}{Effect of Temperature}}{20}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-14000}{QQ2-1-14}{Concluding Remarks}}{22}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-15000}{QQ2-1-15}{Acknowledgments}}{22}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-16000}{QQ2-1-16}{Notation}}{23}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-16001r1}{}{\ignorespaces Glycerol to Hydrocarbons (GTH) Reaction Network}}{figure}\relax 
+\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-16002r2}{}{\ignorespaces Mass Transfer Limitation Tests for a) Internal Diffusion and b) External Diffusion}}{figure}\relax 
+\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-16003r3}{}{\ignorespaces Fit of Glycerol Reaction Rates}}{figure}\relax 
+\doTocEntry\toclof{4}{\csname a:TocLink\endcsname{1}{x1-16004r4}{}{\ignorespaces Fit of Oxygenate Reaction Rates}}{figure}\relax 
+\doTocEntry\toclof{5}{\csname a:TocLink\endcsname{1}{x1-16005r5}{}{\ignorespaces Reaction Rate Fits of Steps R2, R3 and R4}}{figure}\relax 
+\doTocEntry\toclof{6}{\csname a:TocLink\endcsname{1}{x1-16006r6}{}{\ignorespaces Arrhenius Plots for the Rate Constants}}{figure}\relax 
+\doTocEntry\toclof{7}{\csname a:TocLink\endcsname{1}{x1-16007r7}{}{\ignorespaces Comparison of Experimental and Predicted Flow Rates}}{figure}\relax 
+\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{1}{x1-16008r1}{}{\ignorespaces Product Distribution of GTH Conversion over Different Catalysts \cite {Xiao2016}}}{table}\relax 
+\doTocEntry\toclot{2}{\csname a:TocLink\endcsname{1}{x1-16009r2}{}{\ignorespaces Reaction Rate Constants at 400 $^{\circ }$C; units of $k_i$, $mol$/($g_{cat}$ $\cdot $ h $\cdot $ $atm^{n_i}$)}}{table}\relax 
+\doTocEntry\toclot{3}{\csname a:TocLink\endcsname{1}{x1-16010r3}{}{\ignorespaces GTH Conversion Reaction Network Summary}}{table}\relax 

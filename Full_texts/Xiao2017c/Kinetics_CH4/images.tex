@@ -1,0 +1,730 @@
+\batchmode
+\documentclass[journal=iecred,manuscript=article]{achemso}
+\RequirePackage{ifthen}
+
+
+
+
+\usepackage{color}
+\usepackage{tocloft}
+\cftpagenumbersoff{figure}
+
+\setlength{\parskip}{0.25\baselineskip} 
+%
+\renewcommand{\bibfont}{\large}
+\usepackage{times}
+\usepackage{graphicx}
+%
+\renewcommand{\listfigurename}{Captions for Figures}
+\usepackage{threeparttable}
+\usepackage{wrapfig}
+\usepackage{siunitx}
+\usepackage{color}
+\usepackage{epsf}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\linespread{1.2}
+
+
+\author{Yang Xiao and Arvind Varma}
+
+
+\affiliation[Purdue University]
+            {Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN 47907-2100}
+            \email{avarma@purdue.edu}
+            \phone{765-494-8484}
+            \fax{765-494-0805}
+            \title[An \textsf{achemso} demo]
+                  {Kinetics of Glycerol Conversion to Hydrocarbon Fuels over Pd/H-ZSM-5 Catalyst}
+
+
+
+
+
+\pagecolor[gray]{.7}
+
+\usepackage[latin1]{inputenc}
+
+
+
+\makeatletter
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\setlength{\textwidth}{349pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\newcommand\lthtmlhboxmathA{\adjustnormalsize\setbox\sizebox=\hbox\bgroup\kern.05em }%
+\newcommand\lthtmlhboxmathB{\adjustnormalsize\setbox\sizebox=\hbox to\hsize\bgroup\hfill }%
+\newcommand\lthtmlvboxmathA{\adjustnormalsize\setbox\sizebox=\vbox\bgroup %
+ \let\ifinner=\iffalse \let\)\liih@math }%
+\newcommand\lthtmlboxmathZ{\@next\next\@currlist{}{\def\next{\voidb@x}}%
+ \expandafter\box\next\egroup}%
+\newcommand\lthtmlmathtype[1]{\gdef\lthtmlmathenv{#1}}%
+\newcommand\lthtmllogmath{\dimen0\ht\sizebox \advance\dimen0\dp\sizebox
+  \ifdim\dimen0>.95\vsize
+   \lthtmltypeout{%
+*** image for \lthtmlmathenv\space is too tall at \the\dimen0, reducing to .95 vsize ***}%
+   \ht\sizebox.95\vsize \dp\sizebox\z@ \fi
+  \lthtmltypeout{l2hSize %
+:\lthtmlmathenv:\the\ht\sizebox::\the\dp\sizebox::\the\wd\sizebox.\preveqno}}%
+\newcommand\lthtmlfigureA[1]{\let\@savefreelist\@freelist
+       \lthtmlmathtype{#1}\lthtmlvboxmathA}%
+\newcommand\lthtmlpictureA{\bgroup\catcode`\_=8 \lthtmlpictureB}%
+\newcommand\lthtmlpictureB[1]{\lthtmlmathtype{#1}\egroup
+       \let\@savefreelist\@freelist \lthtmlhboxmathB}%
+\newcommand\lthtmlpictureZ[1]{\hfill\lthtmlfigureZ}%
+\newcommand\lthtmlfigureZ{\lthtmlboxmathZ\lthtmllogmath\copy\sizebox
+       \global\let\@freelist\@savefreelist}%
+\newcommand\lthtmldisplayA{\bgroup\catcode`\_=8 \lthtmldisplayAi}%
+\newcommand\lthtmldisplayAi[1]{\lthtmlmathtype{#1}\egroup\lthtmlvboxmathA}%
+\newcommand\lthtmldisplayB[1]{\edef\preveqno{(\theequation)}%
+  \lthtmldisplayA{#1}\let\@eqnnum\relax}%
+\newcommand\lthtmldisplayZ{\lthtmlboxmathZ\lthtmllogmath\lthtmlsetmath}%
+\newcommand\lthtmlinlinemathA{\bgroup\catcode`\_=8 \lthtmlinlinemathB}
+\newcommand\lthtmlinlinemathB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA
+  \vrule height1.5ex width0pt }%
+\newcommand\lthtmlinlineA{\bgroup\catcode`\_=8 \lthtmlinlineB}%
+\newcommand\lthtmlinlineB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA}%
+\newcommand\lthtmlinlineZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetinline}
+\newcommand\lthtmlinlinemathZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetmath}
+\newcommand\lthtmlindisplaymathZ{\egroup %
+  \centerinlinemath\lthtmllogmath\lthtmlsetmath}
+\def\lthtmlsetinline{\hbox{\vrule width.1em \vtop{\vbox{%
+  \kern.1em\copy\sizebox}\ifdim\dp\sizebox>0pt\kern.1em\else\kern.3pt\fi
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\lthtmlsetmath{\hbox{\vrule width.1em\kern-.05em\vtop{\vbox{%
+  \kern.1em\kern0.8 pt\hbox{\hglue.17em\copy\sizebox\hglue0.8 pt}}\kern.3pt%
+  \ifdim\dp\sizebox>0pt\kern.1em\fi \kern0.8 pt%
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\centerinlinemath{%
+  \dimen1=\ifdim\ht\sizebox<\dp\sizebox \dp\sizebox\else\ht\sizebox\fi
+  \advance\dimen1by.5pt \vrule width0pt height\dimen1 depth\dimen1 
+ \dp\sizebox=\dimen1\ht\sizebox=\dimen1\relax}
+
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+
+
+\setlength{\parindent}{2em}%
+
+\setlength{\parindent}{2em}
+\stepcounter{section}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{section}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{subsection}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{mcitethebibliography1939}%
+\begin{mcitethebibliography}
+% latex2html id marker 1939
+{51}
+[1]{#1}
+[1]{}
+[2]{}
+
+  {}
+
+  {\let\unskip.\relax}
+[3]{}
+[3]{}
+{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\ }
+  {\relax}
+  {\relax}
+
+\bibitem[Xue \latin {et~al.}(2011)Xue, Grift, and Hansen]{Xue2011}
+Xue,~J.; Grift,~T.~E.; Hansen,~A.~C. Effect of Biodiesel on Engine Performances
+  and Emissions. \emph{Renewable and Sustainable Energy Reviews} \textbf{2011},
+  \emph{15}, 1098 -- 1116\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[EPA(2010)]{EPA2010}
+EPA, Lifecycle GHG Analysis. \emph{Renewable Fuel Standards Program Regulatory
+  Impact Analysis} \textbf{2010}, \emph{February}, 474--477\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Al-Mulali(2015)]{Al_Mulali2015}
+Al-Mulali,~U. The Impact of Biofuel Energy Consumption on GDP Growth, CO$_2$
+  Emission, Agricultural Crop Prices, and Agricultural Production.
+  \emph{International Journal of Green Energy} \textbf{2015}, \emph{12},
+  1100--1106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Kralova and Sjoblom(2010)Kralova, and Sjoblom]{Kralova2010}
+Kralova,~I.; Sjoblom,~J. Biofuels-Renewable Energy Sources: A Review.
+  \emph{Journal of Dispersion Science and Technology} \textbf{2010}, \emph{31},
+  409--425\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Ardi \latin {et~al.}(2015)Ardi, Aroua, and Hashim]{Ardi2015}
+Ardi,~M.; Aroua,~M.; Hashim,~N.~A. Progress, Prospect and Challenges in
+  Glycerol Purification Process: A Review. \emph{Renewable and Sustainable
+  Energy Reviews} \textbf{2015}, \emph{42}, 1164 -- 1173\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Kong \latin {et~al.}(2016)Kong, Aroua, and Daud]{Kong2016}
+Kong,~P.~S.; Aroua,~M.~K.; Daud,~W. M. A.~W. Conversion of Crude and Pure
+  Glycerol into Derivatives: A Feasibility Evaluation. \emph{Renewable and
+  Sustainable Energy Reviews} \textbf{2016}, \emph{63}, 533 -- 555\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Thanh \latin {et~al.}(2012)Thanh, Okitsu, Boi, and Maeda]{Thanh2012}
+Thanh,~L.~T.; Okitsu,~K.; Boi,~L.~V.; Maeda,~Y. Catalytic Technologies for
+  Biodiesel Fuel Production and Utilization of Glycerol: A Review.
+  \emph{Catalysts} \textbf{2012}, \emph{2}, 191\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Garlapati \latin {et~al.}(2016)Garlapati, Shankar, and
+  Budhiraja]{Garlapati2016}
+Garlapati,~V.~K.; Shankar,~U.; Budhiraja,~A. Bioconversion Technologies of
+  Crude Glycerol to Value Added Industrial Products. \emph{Biotechnology
+  Reports} \textbf{2016}, \emph{9}, 9 -- 14\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Xiao \latin {et~al.}(2013)Xiao, Xiao, and Varma]{Xiao2013}
+Xiao,~Y.; Xiao,~G.; Varma,~A. A Universal Procedure for Crude Glycerol
+  Purification from Different Feedstocks in Biodiesel Production Experimental
+  and Simulation Study. \emph{Industrial \& Engineering Chemistry Research}
+  \textbf{2013}, \emph{52}, 14291--14296\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Xiao and Varma(2016)Xiao, and Varma]{Xiao2016}
+Xiao,~Y.; Varma,~A. Conversion of Glycerol to Hydrocarbon Fuels via
+  Bifunctional Catalysts. \emph{ACS Energy Letters} \textbf{2016}, \emph{1},
+  963--968\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Hoang \latin {et~al.}(2010)Hoang, Zhu, Danuthai, Lobban, Resasco, and
+  Mallinson]{Hoang2010}
+Hoang,~T.~Q.; Zhu,~X.; Danuthai,~T.; Lobban,~L.~L.; Resasco,~D.~E.;
+  Mallinson,~R.~G. Conversion of Glycerol to Alkyl-aromatics over Zeolites.
+  \emph{Energy \& Fuels} \textbf{2010}, \emph{24}, 3804--3809\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Jang \latin {et~al.}(2014)Jang, Bae, Shin, Kim, Kim, and Suh]{Jang2014}
+Jang,~H.-S.; Bae,~K.; Shin,~M.; Kim,~S.~M.; Kim,~C.-U.; Suh,~Y.-W.
+  Aromatization of Glycerol/Alcohol Mixtures over Zeolite H-ZSM-5. \emph{Fuel}
+  \textbf{2014}, \emph{134}, 439 -- 447\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Xiao \latin {et~al.}(2015)Xiao, Wang, and Xiao]{Xiao2015b}
+Xiao,~W.; Wang,~F.; Xiao,~G. Performance of Hierarchical HZSM-5 Zeolites
+  Prepared by NaOH Treatments in the Aromatization of Glycerol. \emph{RSC
+  Advances} \textbf{2015}, \emph{5}, 63697--63704\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Tamiyakul \latin {et~al.}(2015)Tamiyakul, Ubolcharoen, Tungasmita, and
+  Jongpatiwut]{Tamiyakul2015}
+Tamiyakul,~S.; Ubolcharoen,~W.; Tungasmita,~D.~N.; Jongpatiwut,~S. Conversion
+  of Glycerol to Aromatic Hydrocarbons over Zn-Promoted HZSM-5 Catalysts.
+  \emph{Catalysis Today} \textbf{2015}, \emph{256}, 325 -- 335\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Wang \latin {et~al.}(2016)Wang, Xiao, Gao, and Xiao]{Wang2016}
+Wang,~F.; Xiao,~W.; Gao,~L.; Xiao,~G. Enhanced Performance of Glycerol to
+  Aromatics over Sn-containing HZSM-5 Zeolites. \emph{RSC Advances}
+  \textbf{2016}, \emph{6}, 42984--42993\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Nace \latin {et~al.}(1971)Nace, Voltz, and Weekman]{Nace1971}
+Nace,~D.~M.; Voltz,~S.~E.; Weekman,~V.~W. Application of a Kinetic Model for
+  Catalytic Cracking. Effects of Charge Stocks. \emph{Industrial \& Engineering
+  Chemistry Process Design and Development} \textbf{1971}, \emph{10},
+  530--538\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Jacob \latin {et~al.}(1976)Jacob, Gross, Voltz, and Weekman]{Jacob1976}
+Jacob,~S.~M.; Gross,~B.; Voltz,~S.~E.; Weekman,~V.~W. A Lumping and Reaction
+  Scheme for Catalytic Cracking. \emph{AIChE Journal} \textbf{1976}, \emph{22},
+  701--713\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Astarita and Ocone(1988)Astarita, and Ocone]{Astarita1988}
+Astarita,~G.; Ocone,~R. Lumping Nonlinear Kinetics. \emph{AIChE Journal}
+  \textbf{1988}, \emph{34}, 1299--1309\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Keipert \latin {et~al.}(1995)Keipert, Wolf, Schulz, and
+  Baerns]{Keipert1995}
+Keipert,~O.~P.; Wolf,~D.; Schulz,~P.; Baerns,~M. Kinetics of Ethane
+  Aromatization over a Gallium-Doped H-ZSM-5 Catalyst. \emph{Applied Catalysis
+  A: General} \textbf{1995}, \emph{131}, 347 -- 365\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Ranzi \latin {et~al.}(2001)Ranzi, Dente, Goldaniga, Bozzano, and
+  Faravelli]{Ranzi2001}
+Ranzi,~E.; Dente,~M.; Goldaniga,~A.; Bozzano,~G.; Faravelli,~T. Lumping
+  Procedures in Detailed Kinetic Modeling of Gasification, Pyrolysis, Partial
+  Oxidation and Combustion of Hydrocarbon Mixtures. \emph{Progress in Energy
+  and Combustion Science} \textbf{2001}, \emph{27}, 99 -- 139\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Olcese \latin {et~al.}(2013)Olcese, Francois, Bettahar, Petitjean, and
+  Dufour]{Olcese2013}
+Olcese,~R.~N.; Francois,~J.; Bettahar,~M.~M.; Petitjean,~D.; Dufour,~A.
+  Hydrodeoxygenation of Guaiacol, a Surrogate of Lignin Pyrolysis Vapors, over
+  Iron Based Catalysts: Kinetics and Modeling of the Lignin to Aromatics
+  Integrated Process. \emph{Energy \& Fuels} \textbf{2013}, \emph{27},
+  975--984\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Chiang and Bhan(2010)Chiang, and Bhan]{Chiang2010}
+Chiang,~H.; Bhan,~A. Catalytic Consequences of Hydroxyl Group Location on the
+  Rate and Mechanism of Parallel Dehydration Reactions of Ethanol over Acidic
+  Zeolites. \emph{Journal of Catalysis} \textbf{2010}, \emph{271}, 251 --
+  261\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Iorio \latin {et~al.}(2015)Iorio, Bates, Verma, Delgass, Ribeiro,
+  Miller, and Gounder]{Iorio2015}
+Iorio,~J. R.~D.; Bates,~S.~A.; Verma,~A.~A.; Delgass,~W.~N.; Ribeiro,~F.~H.;
+  Miller,~J.~T.; Gounder,~R. The Dynamic Nature of Bronsted Acid Sites in
+  Cu--Zeolites During NO$_x$\  Selective Catalytic Reduction: Quantification by
+  Gas-Phase Ammonia Titration. \emph{Topics in Catalysis} \textbf{2015},
+  \emph{58}, 424--434\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Benson and Boudart(1965)Benson, and Boudart]{Benson1965}
+Benson,~J.~E.; Boudart,~M. Hydrogen-Oxygen Titration Method for the Measurement
+  of Supported Platinum Surface Areas. \emph{Journal of Catalysis}
+  \textbf{1965}, \emph{4}, 704 -- 710\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Serrano-Ruiz and Dumesic(2011)Serrano-Ruiz, and
+  Dumesic]{Serrano-Ruiz2011}
+Serrano-Ruiz,~J.~C.; Dumesic,~J.~A. Catalytic Routes for the Conversion of
+  Biomass Into Liquid Hydrocarbon Transportation Fuels. \emph{Energy Environ.
+  Sci.} \textbf{2011}, \emph{4}, 83--99\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Olson \latin {et~al.}(1981)Olson, Kokotailo, Lawton, and
+  Meier]{Olson1981}
+Olson,~D.~H.; Kokotailo,~G.~T.; Lawton,~S.~L.; Meier,~W.~M. Crystal Structure
+  and Structure-related Properties of ZSM-5. \emph{The Journal of Physical
+  Chemistry} \textbf{1981}, \emph{85}, 2238--2243\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Baerlocher \latin {et~al.}(2007)Baerlocher, McCusker, and
+  Olson]{Baerlocher2007}
+Baerlocher,~C.; McCusker,~L.~B.; Olson,~D.~H. MFI - Pnma. \emph{Atlas of
+  Zeolite Framework Types 6th ed, Elsevier Science B.V.: Amsterdam, The
+  Netherlands} \textbf{2007}, \emph{6th ed.}, 212--213\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Zhu \latin {et~al.}({2013})Zhu, Wegener, Xie, Uche, Neurock, and
+  Marks]{Zhu2013}
+Zhu,~Q.; Wegener,~S.~L.; Xie,~C.; Uche,~O.; Neurock,~M.; Marks,~T.~J. {Sulfur
+  as a Selective 'Soft' Oxidant for Catalytic Methane Conversion probed by
+  experiment and theory}. \emph{{Nature Chemistry}} \textbf{{2013}},
+  \emph{{5}}, {104--109}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Jongerius \latin {et~al.}(2013)Jongerius, Bruijnincx, and
+  Weckhuysen]{Jongerius2013}
+Jongerius,~A.~L.; Bruijnincx,~P. C.~A.; Weckhuysen,~B.~M. Liquid-phase
+  Reforming and Hydrodeoxygenation as a Two-step Route to Aromatics from
+  Lignin. \emph{Green Chem.} \textbf{2013}, \emph{15}, 3049--3056\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Kitagawa \latin {et~al.}(1986)Kitagawa, Sendoda, and Ono]{Kitagawa1986}
+Kitagawa,~H.; Sendoda,~Y.; Ono,~Y. Transformation of Propane Into Aromatic
+  Hydrocarbons over ZSM-5 Zeolites. \emph{Journal of Catalysis} \textbf{1986},
+  \emph{101}, 12 -- 18\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Ono(1992)]{Ono1992}
+Ono,~Y. Transformation of Lower Alkanes into Aromatic Hydrocarbons over ZSM-5
+  Zeolites. \emph{Catalysis Reviews} \textbf{1992}, \emph{34}, 179--226\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Choudhary \latin {et~al.}(2001)Choudhary, Devadas, Banerjee, and
+  Kinage]{Choudhary2001}
+Choudhary,~V.~R.; Devadas,~P.; Banerjee,~S.; Kinage,~A.~K. Aromatization of
+  Dilute Ethylene over Ga-modified ZSM-5 Type Zeolite Catalysts.
+  \emph{Microporous and Mesoporous Materials} \textbf{2001}, \emph{47}, 253 --
+  267\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Perego and Peratello(1999)Perego, and Peratello]{Perego1999}
+Perego,~C.; Peratello,~S. Experimental Methods in Catalytic Kinetics.
+  \emph{Catalysis Today} \textbf{1999}, \emph{52}, 133--145\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Weisz and Prater(1954)Weisz, and Prater]{Weisz1954}
+Weisz,~P.; Prater,~C. Interpretation of Measurements in Experimental Catalysis.
+  \emph{Advances in Catalysis} \textbf{1954}, \emph{6}, 143--196\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Mears(1971)]{Mears1971}
+Mears,~D.~E. Diagnostic Criteria for Heat Transport Limitations in Fixed Bed
+  Reactors. \emph{Journal of Catalysis} \textbf{1971}, \emph{20},
+  127--131\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Gu \latin {et~al.}(2012)Gu, Cui, Yu, Li, and Cui]{Gu2012}
+Gu,~Y.; Cui,~N.; Yu,~Q.; Li,~C.; Cui,~Q. Study on the Influence of Channel
+  Structure Properties in the Dehydration of Glycerol to Acrolein over
+  H-zeolite Catalysts. \emph{Applied Catalysis A: General} \textbf{2012},
+  \emph{429-430}, 9 -- 16\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Zhang \latin {et~al.}(2015)Zhang, Zheng, Ma, Zheng, Zhang, Li, and
+  Chen]{Zhang2015}
+Zhang,~H.; Zheng,~Z.; Ma,~C.; Zheng,~J.; Zhang,~N.; Li,~Y.; Chen,~B.~H. Tuning
+  Surface Properties and Catalytic Performances of Pt-Ru Bimetallic
+  Nanoparticles by Thermal Treatment. \emph{ChemCatChem} \textbf{2015},
+  \emph{7}, 245--249\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Galadima and Muraza(2016)Galadima, and Muraza]{Galadima2016b}
+Galadima,~A.; Muraza,~O. A Review on Glycerol Valorization to Acrolein over
+  Solid Acid Catalysts. \emph{Journal of the Taiwan Institute of Chemical
+  Engineers} \textbf{2016}, \emph{67}, 29 -- 44\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Park \latin {et~al.}(2015)Park, Yun, Kim, Lee, Baek, and Yi]{Park2015}
+Park,~H.; Yun,~Y.~S.; Kim,~T.~Y.; Lee,~K.~R.; Baek,~J.; Yi,~J. Kinetics of the
+  Dehydration of Glycerol over Acid Catalysts with an Investigation of
+  Deactivation Mechanism by Coke. \emph{Applied Catalysis B: Environmental}
+  \textbf{2015}, \emph{176-177}, 1 -- 10\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Akizuki and Oshima(2012)Akizuki, and Oshima]{Akizuki2012}
+Akizuki,~M.; Oshima,~Y. Kinetics of Glycerol Dehydration with WO$_3$/TiO$_2$\  in
+  Supercritical Water. \emph{Industrial \& Engineering Chemistry Research}
+  \textbf{2012}, \emph{51}, 12253--12257\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Talebian-Kiakalaieh \latin {et~al.}(2014)Talebian-Kiakalaieh, Amin, and
+  Hezaveh]{Talebian-Kiakalaieh2014}
+Talebian-Kiakalaieh,~A.; Amin,~N. A.~S.; Hezaveh,~H. Glycerol for Renewable
+  Acrolein Production by Catalytic Dehydration. \emph{Renewable and Sustainable
+  Energy Reviews} \textbf{2014}, \emph{40}, 28 -- 59\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Talebian-Kiakalaieh and Amin(2015)Talebian-Kiakalaieh, and
+  Amin]{Talebian-Kiakalaieh2015}
+Talebian-Kiakalaieh,~A.; Amin,~N. A.~S. Kinetic Modeling, Thermodynamic, and
+  Mass-Transfer Studies of Gas-Phase Glycerol Dehydration to Acrolein over
+  Supported Silicotungstic Acid Catalyst. \emph{Industrial \& Engineering
+  Chemistry Research} \textbf{2015}, \emph{54}, 8113--8121\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Marinelli and Ponec(1995)Marinelli, and Ponec]{Marinelli1995}
+Marinelli,~T.; Ponec,~V. A Study on the Selectivity in Acrolein Hydrogenation
+  on Platinum Catalysts: a Model for Hydrogenation of $\alpha$,
+  $\beta$-Unsaturated Aldehydes. \emph{Journal of Catalysis} \textbf{1995},
+  \emph{156}, 51 -- 59\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Mohr \latin {et~al.}(2000)Mohr, Hofmeister, Lucas, and Claus]{Mohr2000}
+Mohr,~C.; Hofmeister,~H.; Lucas,~M.; Claus,~P. Gold Catalysts for the Partial
+  Hydrogenation of Acrolein. \emph{Chemical Engineering \& Technology}
+  \textbf{2000}, \emph{23}, 324--328\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Volckmar \latin {et~al.}(2009)Volckmar, Bron, Bentrup, Martin, and
+  Claus]{Volckmar2009}
+Volckmar,~C.~E.; Bron,~M.; Bentrup,~U.; Martin,~A.; Claus,~P. Influence of the
+  Support Composition on the Hydrogenation of Acrolein over
+  Ag/SiO$_2$-Al$_2$O$_3$\  Catalysts. \emph{Journal of Catalysis} \textbf{2009},
+  \emph{261}, 1 -- 8\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[de~Jesus and Zaera(1999)de~Jesus, and Zaera]{Jesus1999}
+de~Jesus,~J.~C.; Zaera,~F. Double-bond Activation in Unsaturated Aldehydes:
+  Conversion of Acrolein to Propene and Ketene on Pt(111) Surfaces.
+  \emph{Journal of Molecular Catalysis A: Chemical} \textbf{1999}, \emph{138},
+  237 -- 240\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Wei \latin {et~al.}(2013)Wei, Gomez, Liu, Guo, Wu, Lobo-Lapidus,
+  Marshall, Miller, and Meyer]{Wei2013}
+Wei,~H.; Gomez,~C.; Liu,~J.; Guo,~N.; Wu,~T.; Lobo-Lapidus,~R.;
+  Marshall,~C.~L.; Miller,~J.~T.; Meyer,~R.~J. Selective Hydrogenation of
+  Acrolein on Supported Silver Catalysts: a Kinetics Study of Particle Size
+  Effects. \emph{Journal of Catalysis} \textbf{2013}, \emph{298}, 18 --
+  26\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Qadariyah \latin {et~al.}(2011)Qadariyah, Mahfud, Sumarno, Machmudah,
+  Wahyudiono, Sasaki, and Goto]{Qadariyah2011}
+Qadariyah,~L.; Mahfud,; Sumarno,; Machmudah,~S.; Wahyudiono,; Sasaki,~M.;
+  Goto,~M. Degradation of Glycerol Using Hydrothermal Process.
+  \emph{Bioresource Technology} \textbf{2011}, \emph{102}, 9267 -- 9271\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Watanabe \latin {et~al.}(2007)Watanabe, Iida, Aizawa, Aida, and
+  Inomata]{Watanabe2007}
+Watanabe,~M.; Iida,~T.; Aizawa,~Y.; Aida,~T.~M.; Inomata,~H. Acrolein Synthesis
+  from Glycerol in Hot-compressed Water. \emph{Bioresource Technology}
+  \textbf{2007}, \emph{98}, 1285 -- 1290\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\bibitem[Ott \latin {et~al.}(2006)Ott, Bicker, and Vogel]{Ott2006}
+Ott,~L.; Bicker,~M.; Vogel,~H. Catalytic Dehydration of Glycerol in Sub- and
+  Supercritical Water: a New Chemical Process for Acrolein Production.
+  \emph{Green Chem.} \textbf{2006}, \emph{8}, 214--220\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\unskip.
+\end{mcitethebibliography}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2394}%
+\includegraphics[width=0.85\textwidth]{Fig1.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2398}%
+\includegraphics[width=0.85\textwidth]{Fig2.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2402}%
+\includegraphics[width=0.85\textwidth]{Fig3.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2406}%
+\includegraphics[width=0.85\textwidth]{Fig4.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2410}%
+\includegraphics[width=0.98\textwidth]{Fig5.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2414}%
+\includegraphics[width=0.85\textwidth]{Fig6.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlpictureA{tex2html_wrap2418}%
+\includegraphics[width=0.85\textwidth]{Fig7.eps}%
+\lthtmlpictureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline706}%
+$R_1$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline708}%
+$R_2$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline710}%
+$R_3$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline712}%
+$R_4$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline726}%
+$E_{a_i}, kJ/mol$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline728}%
+$A_{i},10^7 mol/(g_{cat} \cdot h \cdot atm^{n_i})$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+
+\end{document}

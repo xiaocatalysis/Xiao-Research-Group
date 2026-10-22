@@ -1,0 +1,10 @@
+No implementation found for style `achemso'
+No implementation found for style `booktabs'
+
+*** Images are not strictly valid within HTML <pre> tags
+Please change your use of {tabbing} to a {tabular} environment.
+
+
+? brace missing for \
+
+possible looping with new-command \ 

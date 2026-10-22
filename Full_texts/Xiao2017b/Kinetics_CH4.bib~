@@ -1,0 +1,387 @@
+﻿@article {Tuck2012,
+author = {Tuck, Christopher O. and P{\'e}rez, Eduardo and Horv{\'a}th, Istv{\'a}n T. and Sheldon, Roger A. and Poliakoff, Martyn},
+title = {Valorization of Biomass: Deriving More Value from Waste},
+volume = {337},
+pages = {695--699},
+year = {2012},
+journal = {Science},
+}
+
+@article{Guvenatam2014,
+	author = {Guvenatam, Burcu and Kursun, Osman and Heeres, Erik H.J. and Pidko, Evgeny A. and Hensen, Emiel J.M.},
+	journal = {Catalysis Today},
+	pages = {83-91},
+	title = {Hydrodeoxygenation of mono- and dimeric lignin model compounds on noble metal catalysts},
+	volume = {233},
+	year = {2014}
+}
+
+@article{Wangt2011,
+author = {Weiyan Wang and Yunquan Yang and Hean Luo and Huizou Peng and Feng Wang},
+title = {Effect of La on Ni-W-B amorphous catalysts in hydrodeoxygenation of phenol},
+journal = {Industrial \& Engineering Chemistry Research},
+volume = {50},
+pages = {10936-10942},
+year = {2011},
+}
+
+@article{Xiao2015,
+author = {Yang Xiao and Arvind Varma},
+title = {Catalytic deoxygenation of guaiacol using methane},
+journal = {ACS Sustainable Chemistry \& Engineering},
+volume = {3},
+number = {11},
+pages = {2606-2610},
+year = {2015},
+}
+
+@article{Gao2014,
+author = {Danni Gao and Christopher Schweitzer and Hyun Tae Hwang and Arvind Varma},
+title = {Conversion of guaiacol on noble metal aatalysts: reaction performance and deactivation studies},
+journal = {Industrial \& Engineering Chemistry Research},
+volume = {53},
+number = {49},
+pages = {18658-18667},
+year = {2014},
+}
+
+@article{Gao2015,
+author = {Danni Gao and Yang Xiao and Arvind Varma},
+title = {Guaiacol hydrodeoxygenation over platinum catalyst: reaction pathways and kinetics},
+journal = {Industrial \& Engineering Chemistry Research},
+volume = {54},
+number = {43},
+pages = {10638-10644},
+year = {2015},
+}
+
+@article{Runnebaum2012,
+author ={Runnebaum, Ron C. and Nimmanwudipong, Tarit and Block, David E. and Gates, Bruce C.},
+title  ={Catalytic conversion of compounds representative of lignin-derived bio-oils: a reaction network for guaiacol{,} anisole{,} 4-methylanisole{,} and cyclohexanone conversion catalysed by Pt/${\gamma}$-Al$_2$O$_3$},
+journal  ={Catal. Sci. Technol.},
+year  ={2012},
+pages = {113-118},
+}
+ 
+@article{Nigam2011,
+title = "Production of liquid biofuels from renewable resources ",
+journal = "Progress in Energy and Combustion Science ",
+volume = "37",
+number = "1",
+pages = "52-68",
+year = "2011",
+author = "Poonam Singh Nigam and Anoop Singh",
+}
+
+@article{Elliott2009,
+author = {Douglas C. Elliott and Todd R. Hart},
+title = {Catalytic hydroprocessing of chemical models for bio-oil},
+journal = {Energy \& Fuels},
+volume = {23},
+number = {2},
+pages = {631-637},
+year = {2009},
+}
+
+@article{Mortensen2011,
+title = "A review of catalytic upgrading of bio-oil to engine fuels ",
+journal = "Applied Catalysis A: General ",
+volume = "407",
+number = "1–2",
+pages = "1 - 19",
+year = "2011",
+note = "",
+author = "P.M. Mortensen and J.-D. Grunwaldt and P.A. Jensen and K.G. Knudsen and A.D. Jensen",
+}
+
+@article{Xiu2012,
+title = "Bio-oil production and upgrading research: A review ",
+journal = "Renewable and Sustainable Energy Reviews ",
+volume = "16",
+number = "7",
+pages = "4406 - 4414",
+year = "2012",
+note = "",
+author = "Shuangning Xiu and Abolghasem Shahbazi",
+}
+
+@article{Elliott2015,
+author = {Douglas C. Elliott and Huamin Wang and Marjorie Rover and Lysle Whitmer and Ryan Smith and Robert Brown},
+title = {Hydrocarbon liquid production via catalytic hydroprocessing of phenolic oils fractionated from fast pyrolysis of red oak and corn stover},
+journal = {ACS Sustainable Chemistry \& Engineering},
+volume = {3},
+number = {5},
+pages = {892-902},
+year = {2015},
+}
+
+@article{Zhao2011,
+title = "Hydrodeoxygenation of guaiacol as model compound for pyrolysis oil on transition metal phosphide hydroprocessing catalysts ",
+journal = "Applied Catalysis A: General ",
+volume = "391",
+number = "1–2",
+pages = "305 - 310",
+year = "2011",
+author = "H.Y. Zhao and D. Li and P. Bui and S.T. Oyama",
+}
+
+@article{Wildschut2009,
+author = {Jelle Wildschut and Farchad H. Mahfud and Robbie H. Venderbosch and Hero J. Heeres},
+title = {Hydrotreatment of fast pyrolysis oil using heterogeneous noble-metal catalysts},
+journal = {Industrial \& Engineering Chemistry Research},
+volume = {48},
+number = {23},
+pages = {10324-10334},
+year = {2009},
+}
+
+@article{Gutierrez2009,
+title = "Hydrodeoxygenation of guaiacol on noble metal catalysts ",
+journal = "Catalysis Today ",
+volume = "147",
+pages = "239-246",
+year = "2009",
+author = "A. Gutierrez and R.K. Kaila and M.L. Honkela and R. Slioor and A.O.I. Krause",
+}
+
+@Article{Saidi2014,
+author ="Saidi, Majid and Samimi, Fereshteh and Karimipourfard, Dornaz and Nimmanwudipong, Tarit and Gates, Bruce C. and Rahimpour, Mohammad Reza",
+title  ="Upgrading of lignin-derived bio-oils by catalytic hydrodeoxygenation",
+journal  ="Energy Environ. Sci.",
+year  ="2014",
+volume  ="7",
+pages  ="103-129",
+}
+
+@article{Wu2013,
+author = {Shin-Kuan Wu and Po-Chen Lai and Yu-Chuan Lin and Hou-Peng Wan and Hom-Ti Lee and Ying-Hsi Chang},
+title = {Atmospheric hydrodeoxygenation of guaiacol over alumina-, zirconia-, and silica-supported nickel phosphide catalysts},
+journal = {ACS Sustainable Chemistry \& Engineering},
+volume = {1},
+number = {3},
+pages = {349-358},
+year = {2013},
+}
+
+@article {Lee2015,
+author = {Lee, Kyungtae and Gu, Geun Ho and Mullen, Charles A. and Boateng, Akwasi A. and Vlachos, Dionisios G.},
+title = {Guaiacol hydrodeoxygenation mechanism on Pt(111): insights from density functional theory and linear free energy relations},
+journal = {ChemSusChem},
+volume = {8},
+number = {2},
+pages = {315-322},
+year = {2015},
+}
+
+@article{Bui2011,
+title = "Hydrodeoxygenation of guaiacol with CoMo catalysts. Part I: Promoting effect of cobalt on HDO selectivity and activity ",
+journal = "Applied Catalysis B: Environmental ",
+volume = "101",
+number = "3–4",
+pages = "239 - 245",
+year = "2011",
+author = "Van Ngoc Bui and Dorothée Laurenti and Pavel Afanasiev and Christophe Geantet",
+}
+
+@article{Zhang2013,
+title = "Characterization and catalytic properties of Ni and NiCu catalysts supported on ZrO$_2${-}SiO$_2$ for guaiacol hydrodeoxygenation ",
+journal = "Catalysis Communications ",
+volume = "33",
+number = "",
+pages = "15-19",
+year = "2013",
+author = "Xinghua Zhang and Tiejun Wang and Longlong Ma and Qi Zhang and Yuxiao Yu and Qiying Liu",
+}
+
+@article{Mochizuki2014,
+title = "Deoxygenation of guaiacol and woody tar over reduced catalysts ",
+journal = "Applied Catalysis B: Environmental ",
+volume = "146",
+number = "",
+pages = "237-243",
+year = "2014",
+author = "Takehisa Mochizuki and Shih-Yuan Chen and Makoto Toba and Yuji Yoshimura",
+}
+
+@article{Olcese2012,
+title = "Gas-phase hydrodeoxygenation of guaiacol over Fe/SiO$_2$ catalyst ",
+journal = "Applied Catalysis B: Environmental ",
+volume = "115-116",
+pages = "63-73",
+year = "2012",
+author = "R.N. Olcese and M. Bettahar and D. Petitjean and B. Malaman and F. Giovanella and A. Dufour",
+}
+
+@article{Badawi2011,
+title = "Guaiacol derivatives and inhibiting species adsorption over MoS2 and CoMoS catalysts under HDO conditions: A DFT study ",
+journal = "Catalysis Communications ",
+volume = "12",
+number = "10",
+pages = "901-905",
+year = "2011",
+author = "Michael Badawi and Jean-François Paul and Sylvain Cristol and Edmond Payen",
+}
+
+@article{Hu2010,
+author = {Wenbin Hu and Daniel Knight and Brian Lowry and Arvind Varma},
+title = {Selective oxidation of glycerol to dihydroxyacetone over Pt{-}Bi/C catalyst: optimization of catalyst and reaction conditions},
+journal = {Industrial \& Engineering Chemistry Research},
+volume = {49},
+number = {21},
+pages = {10876-10882},
+year = {2010},
+}
+
+@article{Hu2011,
+title = "Kinetic study of glycerol oxidation network over Pt{-}Bi/C catalyst ",
+journal = "Applied Catalysis B: Environmental ",
+volume = "106",
+number = "1–2",
+pages = "123 - 132",
+year = "2011",
+author = "Wenbin Hu and Brian Lowry and Arvind Varma",
+}
+
+@article {Chang2013,
+author = {Chang, Jie and Danuthai, Tanate and Dewiyanti, Silvia and Wang, Chuan and Borgna, Armando},
+title = {Hydrodeoxygenation of guaiacol over carbon-supported metal catalysts},
+journal = {ChemCatChem},
+volume = {5},
+number = {10},
+publisher = {WILEY-VCH Verlag},
+pages = {3041-3049},
+year = {2013},
+}
+
+@article {Jongerius2013,
+author = {Jongerius, Anna L. and Gosselink, Robert W. and Dijkstra, Jelmer and Bitter, Johannes H. and Bruijnincx, Pieter C. A. and Weckhuysen, Bert M.},
+title = {Carbon nanofiber supported transition-metal carbide catalysts for the hydrodeoxygenation of guaiacol},
+journal = {ChemCatChem},
+volume = {5},
+number = {10},
+publisher = {WILEY-VCH Verlag},
+issn = {1867-3899},
+url = {http://dx.doi.org/10.1002/cctc.201300280},
+doi = {10.1002/cctc.201300280},
+pages = {2964--2972},
+keywords = {carbides, guaiacol, hydrodeoxygenation, lignin, phenols},
+year = {2013},
+}
+
+@article{Perego1999,
+title = "Experimental methods in catalytic kinetics ",
+journal = "Catalysis Today ",
+volume = "52",
+pages = "133-145",
+year = "1999",
+author = "C Perego and S Peratello",
+}
+
+@article{Weisz1954,
+title = "Interpretation of measurements in experimental catalysis ",
+editor = "W.G. Frankenburg, V.I. Komarewsky and E.K. Rideal",
+publisher = "Academic Press",
+year = "1954",
+volume = "6",
+pages = "143-196",
+series = "Advances in Catalysis ",
+author = "P.B. Weisz and C.D. Prater",
+}
+
+@article{Mears1971,
+title = "Diagnostic criteria for heat transport limitations in fixed bed reactors",
+journal = "Journal of Catalysis",
+volume = "20",
+number = "2",
+pages = "127 - 131",
+year = "1971",
+author = "David E. Mears",
+}
+
+
+@book{Fogler2005,
+author = "H. Scott Fogler",
+address= "New Jersey",
+title = "Elements of Chemical Reaction Engineering",
+publisher = "Prentice Hall International, Inc",
+year = "2005",
+edition= "4th edition"
+}
+
+@book{Box2005,
+author = "George E. P. Box and J. Stuart Hunter and William G. Hunter",
+address= "New Jersey",
+title = "Statistics for Experimenters: Design, Innovation, and Discovery",
+publisher = "Wiley",
+year = "2005",
+edition= "2nd edition"
+}
+
+@book{Norris1981,
+author = "A. C. Norris",
+address= "New York",
+title = "Computational Chemistry: An Introduction to Numerical Methods",
+publisher = "Wiley",
+year = "1981",
+}
+
+@article{Levie1986,
+title = {When, why, and how to use weighted least squares},
+author = {Robert de Levie},
+journal = {Journal of Chemical Education},
+volume = {63},
+number = {1},
+pages = {10},
+year = {1986},
+}
+
+@article {Deepa2014,
+author = {Deepa, Ayillath K. and Dhepe, Paresh L.},
+title = {Function of Metals and Supports on the Hydrodeoxygenation of Phenolic Compounds},
+journal = {ChemPlusChem},
+volume = {79},
+number = {11},
+doi = {10.1002/cplu.201402145},
+pages = {1573--1583},
+year = {2014},
+}
+
+@Article{Bykova2013,
+author="Bykova, M. V.
+and Zavarukhin, S. G.
+and Trusov, L. I.
+and Yakovlev, V. A.",
+title="Guaiacol hydrodeoxygenation kinetics with catalyst deactivation taken into consideration",
+journal="Kinetics and Catalysis",
+year="2013",
+volume="54",
+number="1",
+pages="40--48",
+}
+
+@article{Laurent1994,
+title = "Study of the hydrodeoxygenation of carbonyl, carboxylic and guaiacyl groups over sulfided CoMo/$\gamma${-}Al$_2$O$_3$ and NiMo/$\gamma${-}Al$_2$O$_3$ catalyst",
+journal = "Applied Catalysis A: General",
+volume = "109",
+number = "1",
+pages = "97 - 115",
+year = "1994",
+note = "",
+issn = "0926-860X",
+doi = "http://dx.doi.org/10.1016/0926-860X(94)85005-4",
+url = "http://www.sciencedirect.com/science/article/pii/0926860X94850054",
+author = "Etienne Laurent and Bernard Delmon",
+}
+
+
+
+
+
+@article{Bridgwater2012,
+title = "Review of fast pyrolysis of biomass and product upgrading ",
+journal = "Biomass and Bioenergy ",
+volume = "38",
+pages = "68 - 94",
+year = "2012",
+author = "A.V. Bridgwater",
+}

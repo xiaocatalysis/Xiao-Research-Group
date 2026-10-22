@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>L</title>
+</head>
+<body>
+  <?php
+   $max_len=9000;
+   $CounterFile ="counter.dat";
+   if(!file_exists($CounterFile)){
+      $counter=0;
+      $cf=fopen($CounterFile,"w"); //打开文件
+      fputs($cf,'0');
+      fclose($cf);
+   }
+   else{
+      $cf=fopen($CounterFile,"r");
+      $counter=trim(fgets($cf,$max_len));
+      fclose($cf);
+   }
+   $counter++;
+   $cf=fopen($CounterFile,"w");
+   fputs($cf,$counter);
+   fclose($cf);
+?>
+<div id="dd" align="center">
+  <span>Welcome</span>
+  <span>You are
+    <?php
+     echo $counter;
+    ?>
+    Wei</span>
+</div>
+</body>
+</html>

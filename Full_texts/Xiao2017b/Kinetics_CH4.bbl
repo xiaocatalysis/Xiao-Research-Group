@@ -1,0 +1,295 @@
+\providecommand{\latin}[1]{#1}
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{37}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Tuck \latin{et~al.}(2012)Tuck, Perez, Horvath, Sheldon, and
+  Poliakoff]{Tuck2012}
+Tuck,~C.~O.; Perez,~E.; Horvath,~I.~T.; Sheldon,~R.~A.; Poliakoff,~M.
+  \emph{Science} \textbf{2012}, \emph{337}, 695--699\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nigam and Singh(2011)Nigam, and Singh]{Nigam2011}
+Nigam,~P.~S.; Singh,~A. \emph{Progress in Energy and Combustion Science}
+  \textbf{2011}, \emph{37}, 52--68\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Elliott and Hart(2009)Elliott, and Hart]{Elliott2009}
+Elliott,~D.~C.; Hart,~T.~R. \emph{Energy \& Fuels} \textbf{2009}, \emph{23},
+  631--637\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mortensen \latin{et~al.}(2011)Mortensen, Grunwaldt, Jensen, Knudsen,
+  and Jensen]{Mortensen2011}
+Mortensen,~P.; Grunwaldt,~J.-D.; Jensen,~P.; Knudsen,~K.; Jensen,~A.
+  \emph{Applied Catalysis A: General} \textbf{2011}, \emph{407}, 1--19\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Xiu and Shahbazi(2012)Xiu, and Shahbazi]{Xiu2012}
+Xiu,~S.; Shahbazi,~A. \emph{Renewable and Sustainable Energy Reviews}
+  \textbf{2012}, \emph{16}, 4406--4414\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Elliott \latin{et~al.}(2015)Elliott, Wang, Rover, Whitmer, Smith, and
+  Brown]{Elliott2015}
+Elliott,~D.~C.; Wang,~H.; Rover,~M.; Whitmer,~L.; Smith,~R.; Brown,~R.
+  \emph{ACS Sustainable Chemistry \& Engineering} \textbf{2015}, \emph{3},
+  892--902\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Guvenatam \latin{et~al.}(2014)Guvenatam, Kursun, Heeres, Pidko, and
+  Hensen]{Guvenatam2014}
+Guvenatam,~B.; Kursun,~O.; Heeres,~E.~H.; Pidko,~E.~A.; Hensen,~E.~J.
+  \emph{Catalysis Today} \textbf{2014}, \emph{233}, 83--91\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bridgwater(2012)]{Bridgwater2012}
+Bridgwater,~A. \emph{Biomass and Bioenergy} \textbf{2012}, \emph{38},
+  68--94\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wildschut \latin{et~al.}(2009)Wildschut, Mahfud, Venderbosch, and
+  Heeres]{Wildschut2009}
+Wildschut,~J.; Mahfud,~F.~H.; Venderbosch,~R.~H.; Heeres,~H.~J.
+  \emph{Industrial \& Engineering Chemistry Research} \textbf{2009}, \emph{48},
+  10324--10334\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gutierrez \latin{et~al.}(2009)Gutierrez, Kaila, Honkela, Slioor, and
+  Krause]{Gutierrez2009}
+Gutierrez,~A.; Kaila,~R.; Honkela,~M.; Slioor,~R.; Krause,~A. \emph{Catalysis
+  Today} \textbf{2009}, \emph{147}, 239--246\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Saidi \latin{et~al.}(2014)Saidi, Samimi, Karimipourfard,
+  Nimmanwudipong, Gates, and Rahimpour]{Saidi2014}
+Saidi,~M.; Samimi,~F.; Karimipourfard,~D.; Nimmanwudipong,~T.; Gates,~B.~C.;
+  Rahimpour,~M.~R. \emph{Energy Environ. Sci.} \textbf{2014}, \emph{7},
+  103--129\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wu \latin{et~al.}(2013)Wu, Lai, Lin, Wan, Lee, and Chang]{Wu2013}
+Wu,~S.-K.; Lai,~P.-C.; Lin,~Y.-C.; Wan,~H.-P.; Lee,~H.-T.; Chang,~Y.-H.
+  \emph{ACS Sustainable Chemistry \& Engineering} \textbf{2013}, \emph{1},
+  349--358\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \latin{et~al.}(2011)Zhao, Li, Bui, and Oyama]{Zhao2011}
+Zhao,~H.; Li,~D.; Bui,~P.; Oyama,~S. \emph{Applied Catalysis A: General}
+  \textbf{2011}, \emph{391}, 305--310\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bui \latin{et~al.}(2011)Bui, Laurenti, Afanasiev, and
+  Geantet]{Bui2011}
+Bui,~V.~N.; Laurenti,~D.; Afanasiev,~P.; Geantet,~C. \emph{Applied Catalysis B:
+  Environmental} \textbf{2011}, \emph{101}, 239--245\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \latin{et~al.}(2013)Zhang, Wang, Ma, Zhang, Yu, and
+  Liu]{Zhang2013}
+Zhang,~X.; Wang,~T.; Ma,~L.; Zhang,~Q.; Yu,~Y.; Liu,~Q. \emph{Catalysis
+  Communications} \textbf{2013}, \emph{33}, 15--19\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mochizuki \latin{et~al.}(2014)Mochizuki, Chen, Toba, and
+  Yoshimura]{Mochizuki2014}
+Mochizuki,~T.; Chen,~S.-Y.; Toba,~M.; Yoshimura,~Y. \emph{Applied Catalysis B:
+  Environmental} \textbf{2014}, \emph{146}, 237--243\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Olcese \latin{et~al.}(2012)Olcese, Bettahar, Petitjean, Malaman,
+  Giovanella, and Dufour]{Olcese2012}
+Olcese,~R.; Bettahar,~M.; Petitjean,~D.; Malaman,~B.; Giovanella,~F.;
+  Dufour,~A. \emph{Applied Catalysis B: Environmental} \textbf{2012},
+  \emph{115-116}, 63--73\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Badawi \latin{et~al.}(2011)Badawi, Paul, Cristol, and
+  Payen]{Badawi2011}
+Badawi,~M.; Paul,~J.-F.; Cristol,~S.; Payen,~E. \emph{Catalysis Communications}
+  \textbf{2011}, \emph{12}, 901 -- 905\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lee \latin{et~al.}(2015)Lee, Gu, Mullen, Boateng, and
+  Vlachos]{Lee2015}
+Lee,~K.; Gu,~G.~H.; Mullen,~C.~A.; Boateng,~A.~A.; Vlachos,~D.~G.
+  \emph{ChemSusChem} \textbf{2015}, \emph{8}, 315--322\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Xiao and Varma(2015)Xiao, and Varma]{Xiao2015}
+Xiao,~Y.; Varma,~A. \emph{ACS Sustainable Chemistry \& Engineering}
+  \textbf{2015}, \emph{3}, 2606--2610\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gao \latin{et~al.}(2014)Gao, Schweitzer, Hwang, and Varma]{Gao2014}
+Gao,~D.; Schweitzer,~C.; Hwang,~H.~T.; Varma,~A. \emph{Industrial \&
+  Engineering Chemistry Research} \textbf{2014}, \emph{53}, 18658--18667\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gao \latin{et~al.}(2015)Gao, Xiao, and Varma]{Gao2015}
+Gao,~D.; Xiao,~Y.; Varma,~A. \emph{Industrial \& Engineering Chemistry
+  Research} \textbf{2015}, \emph{54}, 10638--10644\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hu \latin{et~al.}(2010)Hu, Knight, Lowry, and Varma]{Hu2010}
+Hu,~W.; Knight,~D.; Lowry,~B.; Varma,~A. \emph{Industrial \& Engineering
+  Chemistry Research} \textbf{2010}, \emph{49}, 10876--10882\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hu \latin{et~al.}(2011)Hu, Lowry, and Varma]{Hu2011}
+Hu,~W.; Lowry,~B.; Varma,~A. \emph{Applied Catalysis B: Environmental}
+  \textbf{2011}, \emph{106}, 123 -- 132\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chang \latin{et~al.}(2013)Chang, Danuthai, Dewiyanti, Wang, and
+  Borgna]{Chang2013}
+Chang,~J.; Danuthai,~T.; Dewiyanti,~S.; Wang,~C.; Borgna,~A. \emph{ChemCatChem}
+  \textbf{2013}, \emph{5}, 3041--3049\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jongerius \latin{et~al.}(2013)Jongerius, Bruijnincx, and
+  Weckhuysen]{Jongerius2013}
+Jongerius,~A.~L.; Bruijnincx,~P. C.~A.; Weckhuysen,~B.~M. \emph{Green Chem.}
+  \textbf{2013}, \emph{15}, 3049--3056\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perego and Peratello(1999)Perego, and Peratello]{Perego1999}
+Perego,~C.; Peratello,~S. \emph{Catalysis Today} \textbf{1999}, \emph{52},
+  133--145\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Weisz and Prater(1954)Weisz, and Prater]{Weisz1954}
+Weisz,~P.; Prater,~C. \emph{Advances in Catalysis} \textbf{1954}, \emph{6},
+  143--196\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mears(1971)]{Mears1971}
+Mears,~D.~E. \emph{Journal of Catalysis} \textbf{1971}, \emph{20},
+  127--131\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Runnebaum \latin{et~al.}(2012)Runnebaum, Nimmanwudipong, Block, and
+  Gates]{Runnebaum2012}
+Runnebaum,~R.~C.; Nimmanwudipong,~T.; Block,~D.~E.; Gates,~B.~C. \emph{Catal.
+  Sci. Technol.} \textbf{2012}, 113--118\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fogler(2005)]{Fogler2005}
+Fogler,~H.~S. \textbf{2005}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Box \latin{et~al.}(2005)Box, Hunter, and Hunter]{Box2005}
+Box,~G. E.~P.; Hunter,~J.~S.; Hunter,~W.~G. \textbf{2005}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[de~Levie(1986)]{Levie1986}
+de~Levie,~R. \emph{Journal of Chemical Education} \textbf{1986}, \emph{63},
+  10\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Laurent and Delmon(1994)Laurent, and Delmon]{Laurent1994}
+Laurent,~E.; Delmon,~B. \emph{Applied Catalysis A: General} \textbf{1994},
+  \emph{109}, 97--115\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bykova \latin{et~al.}(2013)Bykova, Zavarukhin, Trusov, and
+  Yakovlev]{Bykova2013}
+Bykova,~M.~V.; Zavarukhin,~S.~G.; Trusov,~L.~I.; Yakovlev,~V.~A. \emph{Kinetics
+  and Catalysis} \textbf{2013}, \emph{54}, 40--48\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Deepa and Dhepe(2014)Deepa, and Dhepe]{Deepa2014}
+Deepa,~A.~K.; Dhepe,~P.~L. \emph{ChemPlusChem} \textbf{2014}, \emph{79},
+  1573--1583\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

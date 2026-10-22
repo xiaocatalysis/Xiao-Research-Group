@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Kinetics_CH4.aux
+The style file: achemso.bst
+Illegal, another \bibstyle command---line 108 of file Kinetics_CH4.aux
+ : \bibstyle
+ :          {achemso}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-Kinetics_CH4.bib
+Database file #2: Kinetics_CH4.bib
+I was expecting a `,' or a `}'---line 1041 of file Kinetics_CH4.bib
+ : pages = {225--226}
+ :                   x,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7680 of file Kinetics_CH4.bib
+ : pages={DOI:10.1080/17597269.2016.1259523}
+ :                                          ;
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 7745 of file Kinetics_CH4.bib
+ : @article
+ :         {Gupta2012,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8592 of file Kinetics_CH4.bib
+ : 
+ : title = {Production of Syngas by Direct Catalytic Oxidation of Methane},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 16433 of file Kinetics_CH4.bib
+ : 
+ : @article{Papa2011,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 20138 of file Kinetics_CH4.bib
+ : 
+ : @article{Srinivas2008,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 21699 of file Kinetics_CH4.bib
+ : 
+ : keywords = { Gao2014,   citation,       },
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 51 entries,
+            2478 wiz_defined-function locations,
+            1087 strings with 16232 characters,
+and the built_in function-call counts, 18915 in all, are:
+= -- 1602
+> -- 1040
+< -- 21
++ -- 408
+- -- 357
+* -- 2119
+:= -- 2523
+add.period$ -- 100
+call.type$ -- 51
+change.case$ -- 1
+chr.to.int$ -- 2
+cite$ -- 51
+duplicate$ -- 1015
+empty$ -- 1315
+format.name$ -- 430
+if$ -- 3643
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 322
+num.names$ -- 150
+pop$ -- 91
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 0
+stack$ -- 0
+substring$ -- 1281
+swap$ -- 1063
+text.length$ -- 100
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 354
+warning$ -- 0
+while$ -- 202
+width$ -- 0
+write$ -- 672
+(There were 8 error messages)

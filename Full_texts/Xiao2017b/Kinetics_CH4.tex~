@@ -1,0 +1,497 @@
+\documentclass[journal=iecred,manuscript=article]{achemso}
+\usepackage{color}
+\usepackage{epsf} 
+\usepackage{booktabs}
+\author{Yang Xiao and Arvind Varma}
+
+\affiliation[Purdue University]
+{School of Chemical Engineering, Purdue University, West Lafayette, IN 47907, United States}
+\email{avarma@purdue.edu}
+\phone{765-494-4075}
+\fax{765-494-0805}
+\title[An \textsf{achemso} demo]
+  {Kinetics of Guaiacol Deoxygenation Using Methane over Pt-Bi Catalyst}
+
+\abbreviations{IR,NMR,UV}
+\keywords{Differential reactor, \LaTeX}
+\begin{document}
+\newpage
+TOC graphic 
+
+\begin{center}
+\epsfxsize=350pt
+\epsffile{TOC.eps}
+\end{center}
+
+\newpage
+\setlength{\parindent}{0pt}
+\begin{center}
+
+\section{Captions for Figures}
+\end{center}
+Figure 1. Proposed reaction pathways of guaiacol deoxygenation for a) Pt/AC and H$_{2}$ case and b) Pt-Bi/AC and CH$_{4}$ case
+
+Figure 2. Detailed reactions between guaiacol/intermediates and methane
+
+Figure 3. Mass transfer limitation tests for a) internal diffusion effect and b) external diffusion effect
+
+Figure 4. Reaction rate fits for steps R1, R2 and R5 at 400 $^{\circ}$C
+
+Figure 5. A comparison of experimental and predicted flowrate values for a) different catalyst amounts, and b) parity plot
+
+\newpage
+\setlength{\parindent}{0pt}
+\section{Synopsis}
+Using methane as a novel reductant, experimental and modeling efforts related to catalytic deoxygenation kinetics of sustainable bio-oils upgrading are reported.
+\section{Abstract}
+Using H$_2$ as reductant,
+catalytic hydrodeoxygenation (HDO) is typically used for upgrading bio-oils, generally produced from thermal degradation of lignin.
+In our recent prior work, methane was used to deoxygenate guaiacol over Pt-Bi catalyst
+and was found to exhibit as good deoxygenation performance as hydrogen.
+In the present work, using methane as reductant,
+detailed reaction pathways and kinetics of guaiacol deoxygenation are studied
+using differential and integral operating conditions.
+Kinetic parameters including rate constants and activation energies are determined for each individual reaction step.
+The model predicted values match experimental data well.
+Results from the present work are discussed and compared with the literature values.
+The present work provides a practical novel approach for bio-oil upgrading
+using methane as reductant instead of hydrogen.
+
+\newpage
+\section{Introduction}
+Energy security and environmental concerns are drivers for utilization of biomass to produce bio-fuels.
+The vast quantity of biomass available in the United States has the potential
+ to replace significant amounts of fuels that are currently derived from petroleum sources.
+Bio-oil, generally derived from fast pyrolysis of biomass,
+is one such candidate fuel. \cite{Tuck2012}
+Its production process, however, remains under investigation,
+owing primarily to its high oxygen content, 
+which may cause instability, poor combustion performance and low heating value. \cite{Nigam2011,Elliott2009,Mortensen2011}
+Too high levels of oxygen make pyrolysis oils distinctly different from petroleum fuels.
+Oxygen removal from pyrolysis bio-oils, thus, is typically followed as an upgrading process to utilize
+these bio-oils as transportation fuels.\cite{Xiu2012, Elliott2015}
+
+Since the pyrolysis bio-oil is always a mixture of more than 400 chemical species,
+and different biomass sources result in different bio-oil compositions, model compounds such as phenol, guaiacol (2-methoxyphenol) and benzylphenyl ether\cite{Guvenatam2014},
+are typically selected to represent bio-oils for more fundamental studies\cite{Bridgwater2012}
+Among these model compounds, guaiacol is attractive because it contains two common oxygenated groups in bio-oils: hydroxyl and methoxyl.
+Catalytic hydrodeoxygenation (HDO), as a common bio-oil upgrading approach,
+refers to oxygen removal by the use of H$_{2}$ molecules over heterogeneous catalysts.
+Using Pt, Pd, Co, etc.\ as primary metals, 
+\cite{Wildschut2009} Mo, S, etc.\ as promoters\cite{Wangt2011}, 
+and activated carbon (AC), Al$_{2}$O$_{3}$, ZrO$_{2}$, SiO$_{2}$, etc.\ as catalytst supports,\cite{Gutierrez2009,Saidi2014,Wu2013}
+various experimental and theoretical studies have been reported for guaiacol catalytic HDO.\cite{Zhao2011, Bui2011, Zhang2013, Mochizuki2014, Olcese2012, Badawi2011, Lee2015}
+
+Although H$_{2}$ is an ideal reductant for oxygen removal from pyrolysis oils,
+its use for HDO, however, leads to possible economic concerns owing to high cost for H$_{2}$ production and transportation.
+For this reason, we have recently reported a novel bio-oil upgrading approach\cite{Xiao2015},
+using CH$_{4}$ instead of  H$_{2}$ as reductant and Pt-Bi/AC as catalyst, to deoxygenate guaiacol efficiently.\
+It was found that using the mono-metallic Pt/AC catalyst,
+CH$_{4}$ exhibited as good deoxygenation performance as H$_{2}$ in terms of guaiacol conversion and product distribution,
+but the catalyst deactivated rapidly.
+With addition of bismuth as promoter,
+the lifetime of the bi-metallic Pt-Bi/AC was extended significantly without loss of activity,
+as compared to the Pt/AC catalyst.
+In our other prior works\cite{Gao2014, Gao2015}, using Pt/AC and H$_{2}$, reaction pathways and detailed kinetics of guaiacol deoxygenation process were reported.
+
+On the basis of these prior studies\cite{Xiao2015, Gao2014, Gao2015},
+in the present work,
+both experimental and modeling investigations were conducted,
+to reveal the reaction pathways and kinetics of guaiacol deoxygenation using methane as the reductant,
+Kinetics measurements in both differential and integral reactors were carried out, 
+and rate constants and activation energy values were determined for the individual reaction steps.
+These results are discussed and compared with our prior studies as well as other related works.
+
+\section{Experimental}
+\subsection{Materials}
+The 5\%Pt-1\%Bi/C catalysts were prepared following the procedure described in our prior works.\cite{Hu2010, Hu2011, Xiao2015}
+The metallic precursors were chloroplatinic acid hydrate (99.9\% metal basis) and bismuth chloride (99.999\%), both from Sigma Aldrich.
+The 20-120 mesh AC supports were from Norit Americas Inc.
+Briefly, Pt and Bi were loaded sequentially using the wet impregnation method. 
+First, the Pt and Bi precursors were dissolved in 1.2 mol/L HCl and then added dropwise to the well-stirred AC slurry, 
+with stirring continued for at least 8 hrs at room temperature. The mixture was then rinsed and dried in air at 100 $^{\circ}$C before use.
+Guaiacol (>98.0\%) and all other calibration compounds (catechol,  phenol and cyclopentanone) were purchased from Sigma-Aldrich. 
+GUA, CAT, PHE and CYC are used for abbreviations of Guaiacol, catechol, phenol and cyclopentanone, respectively in the later sections.
+Ultra high purity grade gases (99.98\% oxygen, 99.999\% argon, 99.98\% helium and 99.999\% hydrogen) were purchased from Indiana Oxygen.
+
+The 0.5\%Pt/Al$_{2}$O$_{3}$ (metal dispersion=31 $\pm$ 0.5\%) standard (for chemisorption calibration) was from Micromeritics.
+
+\subsection{Kinetics Measurements}
+The kinetics measurements were conducted in a fixed-bed reactor setup, described in our prior work. \cite{Gao2014, Gao2015}
+Prior to reaction, the packed catalyst was activated at 400 $^{\circ}$C and 1 atm for 4 hours under a gas mixture flow (H$_{2}$:N$_{2}$ = 1:2). 
+The reactor was then purged using N$_{2}$ for 30 min.
+The standard reactor operating conditions were: 
+400 $^{\circ}$C, 1 atm, 0.02-0.05 g catalyst for differential reactions (conversions typically < 6-8\%) and 0.3-0.5 g catalyst for integral reactions (conversions typically > 20\%), 
+total gas (CH$_{4}$:N$_{2}$ = 1:1) flow rate 100 mL/min, 
+and guaiacol feed rate 0.025 mL/min (liquid, at room temperature).
+
+The feed flow rates correspond to a molar ratio of 10 between CH$_{4}$ and guaiacol.
+Blank tests of AC support with no metal loading were conducted under the standard reaction conditions, and guaiacol conversion was less than 1\%.
+Without guaiacol, methane exhibited about 5\% conversion, generating H$_{2}$ and trace C$_{2}$H$_{6}$ on Pt-Bi catalyst under the standard conditions. 
+All experiments have carbon mass balances of 92 $\pm$ 2\%, similar to the literature. \cite{Chang2013, Jongerius2013} 
+Possible factors affecting mass balance include liquid hold-up in various locations in the system, particularly the condenser, and coke deposit on the catalyst.
+
+\subsection{Product Analysis}
+As in our prior works, GC (Agilent GC6890) with flame ionization detector (FID),
+equipped with a DB-1701 column (30 m $\times$ 0.25 mm) was used for quantitative analysis of the liquid products. \cite{Gao2014, Gao2015, Xiao2015} 
+The gaseous effluent was analyzed using a Micro GC (Agilent 3000A Micro GC) 
+equipped with two columns (Column A, MolSieve 5 A, 10 m $\times$ 0.32 mm; 
+Column B: Plot U, 8 m $\times$ 0.32 mm) and two thermal conductivity detectors (TCD). 
+For the reaction experiments, good repeatability generally within less than 2\% deviation was achieved for all quantitative analysis.
+
+\section{Results and Discussion}
+\subsection{Proposed Reaction Pathways}
+In our prior work,
+when Pt/AC as catalyst and H$_{2}$ as reductant were used for guaiacol deoxygenation,
+reactions pathways, as shown in Figure 1a,
+were proposed and confirmed by experimental observations\cite{Gao2014}, kinetic modeling and DFT calculations.\cite{Gao2015}
+Similar reactions pathways, as shown in Figure 1b, 
+apply in the present work since the same product species, including GUA, CAT, PHE and CYC, and similar distribution are found when
+Pt-Bi/AC as catalyst and  CH$_{4}$ as reductant are used.\
+Both Figure 1a and Figure 1b describe reaction pathways containing five individual steps, denoted as R1-R5,
+producing catechol, phenol and cyclopentanone as liquid products,
+while different gaseous by-products arise from H$_{2}$ and CH$_{4}$, respectively.
+Experimentally, no significant conversion was found when phenol and cyclopentanone were used as reactants in feed, indicating no additional reactions beyond steps R1-R5. 
+
+\begin{center}
+\epsfxsize=350pt
+\epsffile{Figure01.eps}
+
+Figure 1. Proposed reaction pathways of guaiacol deoxygenation for a) Pt/AC and H$_{2}$ case and b) Pt-Bi/AC and CH$_{4}$ case
+
+\end{center}
+
+Based on the above features, detailed reactions between guaiacol/intermediates and methane are proposed in Figure 2.
+
+\begin{center}
+\epsfxsize=350pt
+\epsffile{Figure02.eps}
+
+Figure 2. Detailed reactions between guaiacol/intermediates and methane
+
+\end{center}
+
+For a deoxygenation reaction (such as R2 or R3), similar to H$_{2}$,
+one molecule of CH$_{4}$ provides only one H atom to oxygen-containing groups,
+forming H$_{2}$O or other hydrogenated species,
+while the residual CH$_{3}$ combines with another CH$_{3}$ to form a C$_{2}$H$_{6}$ molecule. 
+
+\subsection{Absence of Mass Transfer Limitations}
+Before conducting kinetics measurements,
+mass transfer limitations were tested in a differential reactor,
+using the well-known procedure. \cite{Perego1999}. The experimental results are shown in Figure 3.
+
+\begin{center}
+\epsfxsize=500pt
+\epsffile{Figure03.eps}
+
+Figure 3. Mass transfer limitation tests for a) internal diffusion effect and b) external diffusion effect
+\end{center}
+
+Figure 3a was obtained by varying packed catalyst particle diameter ($d_{p}$)
+in the range 100 micron < $d_{p}$ < 1000 micron,
+while keeping other operating conditions unchanged.
+Figure 3b was obtained by varying feed flow rates,
+while maintaining contact time (W/F) and other operating conditions constant.
+Figure 3a shows that when catalyst particle diameter ($d_{p}$) is larger than 250 micron,
+corresponding to 60 mesh, internal diffusion effects are discerned,
+while when ($d_{p}$) < 150 micron, corresponding to 100 mesh, no significant internal effects are found.
+As shown in Figure 3b, when feed flow rate is smaller than 1.2 mL/min, 
+there is an obvious external mass transfer effect,
+while no such effect is observed
+when feed flow rate is larger than 1.5 mL/min.
+Thus, ($d_{p}$) < 150 micron and feed flow rate larger than 1.5 mL/min were used in the kinetics measurement experiments.
+Further, the criteria described by Weisz and Prater \cite{Weisz1954} and
+Mears \cite{Mears1971} were both satisfied to verify the absence of mass and heat transfer effects in all experiments.
+
+\subsection{Kinetic Model Development}
+The reaction rates of step Ri in Figure 1b
+and the corresponding turnover frequencies (TOF) are defined by Eq. (\ref{Eq1}) and Eq. (\ref{Eq2}), respectively
+\begin{equation} \label{Eq1}
+r_i=\frac{dF}{dW}
+\end{equation}
+\begin{equation} \label{Eq2}
+TOF_i=\frac{dF}{d\left(active~site\right)}=r_i \times \frac{M_{Pt}}{wt\% \cdot D\%}
+\end{equation}
+
+Since only one catalyst (Pt-Bi/AC), with specific Pt metal loading amount (wt\%=5\%) and specific Pt metal dispersion (D\%=29\%), was used in the kinetic experiments,
+the reaction rate and TOF are inter-converted
+as indicated in Eq. (\ref{Eq1}) and Eq. (\ref{Eq2}).
+
+The reaction pathways, including five individual steps (R1-R5) as shown in Figure 1b,
+were established under integral operating conditions.
+When using guaiacol as feed, under differential operating conditions
+(guaiacol conversion less than 6-8\%),
+catechol is the only product generated, i.e.\ only step R1 prevails
+while steps R3 and R4 are negligible. 
+When catechol is used as feed,
+also under differential conditions, both phenol and cyclopentanone (corresponding to steps R2 and R5) exist in the liquid products.
+These experimental observations imply that when feeding guaiacol under differential operating conditions,
+R1 is faster than R3 and R4, and phenol and cyclopentanone are not produced owing to low concentration of catechol.
+Therefore, kinetic parameters for steps R1, R2 and R5 could be obtained by running differential reactions.
+Using kinetic parameters of R1, R2 and R5,
+those for R3 and R4 could be further regressed by running integral reactions.
+
+When differential operating conditions apply, reaction rates are obtained by Eq. (\ref{Eq3}).
+\begin{equation} \label{Eq3}
+r_i=F_{0} \times \frac{X}{W}
+\end{equation}
+
+Based on the design equation for a fixed-bed reactor and the proposed pathways in Figure 1b, 
+consumption/formation rates of guaiacol, catechol, phenol and cyclopentanone are shown in Eqs. (\ref{Eq4} -~\ref{Eq7}).
+
+\begin{equation} \label{Eq4}
+\frac{dF_{GUA}}{d_{W}}=-r_1-r_3-r_4
+\end{equation}
+\begin{equation} \label{Eq5}
+\frac{dF_{CAT}}{d_{W}}=r_1-r_2-r_5
+\end{equation}
+\begin{equation} \label{Eq6}
+\frac{dF_{CYC}}{d_{W}}=r_4+r_5
+\end{equation}
+\begin{equation} \label{Eq7}
+\frac{dF_{PHE}}{d_{W}}=r_2+r_3
+\end{equation}
+
+An overall material balance yields the following Eqs. (~\ref{Eq8} -~\ref{Eq10}).
+
+\begin{equation} \label{Eq8}
+F_{GUA}+F_{CAT}+F_{CYC}+F_{PHE}=F_{0}
+\end{equation}
+%\begin{equation} \label{Eq9}
+%P_{GUA}+P_{CAT}+P_{CYC}+P_{PHE}=P_{0}
+%\end{equation}
+\begin{equation} \label{Eq10}
+P_{i}=F_{i} \times \frac{P_{0}}{F_{0}}
+\end{equation}
+
+As described in the Kinetics Measurements section,
+excess methane (molar ratio of methane to reactants is $\sim$10:1)
+is used in all cases,
+thus partial pressure of methane may be considered as a constant contribution to the reaction rate expressions.
+The following data fitting and optimization are based on experimental measurements at various temperatures from 325-450 $^{\circ}$C.
+Although only results at 400 $^{\circ}$ C are shown below because this standard operating temperature
+gives optimum deoxygenation performance of guaiacol \cite{Xiao2015}
+and results at 400 $^{\circ}$ C were repeated more than 5 times,
+fitting and optimization results for different temperature give similar conclusions.
+All experiments at other temperatures were repeated at least twice and are discussed in the section Activation Energies and Temperature Effect.
+
+\subsection{Differential Reactions for Steps R1, R2 and R5}
+When differential operating conditions apply at 400 $^{\circ}$C, for steps R1, R2 and R5,
+the corresponding reaction rates $r_1$, $r_2$ and $r_5$ were obtained by Eq. (\ref{Eq3}).
+
+\begin{center}
+\epsfxsize=400pt
+\epsffile{Figure04.eps}
+
+Figure 4. Reaction rate fits for steps R1, R2 and R5 at 400 $^{\circ}$C
+\end{center}
+
+Using different feed partial pressures of guaiacol or catechol, 
+reaction rates were measured and plotted
+with respect to average bed reactant partial pressures, as shown in Figure 4.
+All three data sets follow linear regressions,
+indicating first orders for steps R1, R2 and R5.
+Thus, the corresponding reaction rates at 400 $^{\circ}$C are described by in Eqs. (\ref{Eq11} -~\ref{Eq13}),
+where the regressed values of $k_1$, $k_2$ and $k_5$ are listed in Table 1.
+The reaction rate regressions of R1, R2 and R5 at other temperatures are also essentially linear,
+as discussed later in the section Activation Energies and Temperature Effect.
+
+\begin{equation} \label{Eq11}
+r_1=k_1 P_{GUA}
+\end{equation}
+\begin{equation} \label{Eq12}
+r_2=k_2 P_{CAT}
+\end{equation}
+\begin{equation} \label{Eq13}
+r_5=k_5 P_{CAT}
+\end{equation}
+
+\begin{center}
+
+Table 1. Reaction rate constants for steps R1, R2 and R5 at 400 $^{\circ}$C;
+units of $k_i$ $mol/(g_{cat} \cdot s \cdot atm)$
+
+\begin{tabular}{c c c c c c c c c c c c c}
+\toprule
+           Steps &  $k_i\times 10^{-5}$\\
+\midrule
+          R1 & 8.29\\
+          R2 & 9.71\\
+          R5 & 4.47 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Using H$_2$ as reductant, Runnebaum et al.\ \cite{Runnebaum2012} also reported 1st order kinetics for step R1 over Pt/Al${_2}  $O${_3}$ catalyst, 
+while our prior work \cite{Gao2015} fitted a 2nd order for the same step.
+The difference between the present work and our prior work may be due to different reductants (H$_2$ or CH$_4$).
+For steps R2 and R5, both the present work and our prior work demonstrate 1st order kinetics.
+The reaction rate constant values, however, are smaller when CH$_4$ is used as reductant, indicating a higher activation energy for CH$_4$.
+
+\subsection{Integral Reactions of Steps R3 and R4}
+
+As shown above, under differential operating conditions,
+step R1 is decomposed from the reaction network (Figure 1) when feeding guaiacol over the catalyst.
+Similarly, steps R2 and R5 are decomposed under differential operating conditions when feeding catechol.
+To obtain insight into steps R3 and R4,
+integral operating conditions were used while feeding guaiacol
+by packing more catalyst,
+producing distinct amounts of phenol and cyclopentanone.
+These, obviously, introduce not only steps R3 and R4, but also steps R1, R2 and R5.
+Thus Eqs. (\ref{Eq4} -~\ref{Eq7}) can be re-written as Eqs. (\ref{Eq22} -~\ref{Eq25}),
+where $k_i$ and $n_i$ are reaction rate constants and orders for steps $R_i$.
+
+\begin{equation} \label{Eq22}
+\frac{dF_{GUA}}{d_{W}}=-r_1-r_3-r_4=-k_1 P_{GUA}^{n_1}-k_3 P_{GUA}^{n_3}-k_4 P_{GUA}^{n_4}
+\end{equation}
+\begin{equation} \label{Eq23}
+\frac{dF_{CAT}}{d_{W}}=r_1-r_2-r_5=-k_1 P_{GUA}^{n_1}-k_2 P_{CAT}^{n_2}-k_5 P_{CAT}^{n_5}
+\end{equation}
+\begin{equation} \label{Eq24}
+\frac{dF_{CYC}}{d_{W}}=r_4+r_5=k_4 P_{GUA}^{n_4}+k_5 P_{CAT}^{n_5}
+\end{equation}
+\begin{equation} \label{Eq25}
+\frac{dF_{PHE}}{d_{W}}=r_2+r_3=k_2 P_{CAT}^{n_2}+k_3 P_{GUA}^{n_3}
+\end{equation}
+
+In this description, the reaction orders for steps 1, 2 and 5 are also kept flexible. With $k_i$ and $n_i$ as variables (total 10),
+predicted values of flowrates for GUA, CAT, CYC and PHE can be calculated
+by Runge-Kutta numerical integration using the following initial conditions:
+
+\begin{equation} \label{Eq18}
+F_{GUA}=F_0,~F_{CAT}=0,~F_{PHE}=0~and~F_{CYC}=0,~when~W=0.
+\end{equation}
+
+In general, for parameter estimation involving exponents,
+Weighted Least-Squares method is recommended and was followed in the present work\cite{Norris1981, Fogler2005, Box2005}.   
+This involves minimizing the error estimate given by Eq.~(\ref{Eq19}). 
+
+\begin{equation} \label{Eq19}
+\sigma^2=\sum_{i}{w_i(F_{exp_i}-F_{pred_i})^2},
+\end{equation}
+
+where $~i=GUA,~CAT,~PHE~and~CYC$ if integral conditions apply,
+while $~i=GUA~and~CAT$ if differential conditions apply,
+and $w_i$ are the weighting functions.
+In principle, any positive weighting function can be used.
+For single reactions, the appropriate $w_i$ have been reported by de Levie \cite{Levie1986},
+but are not available for simultaneous multi-reaction network, as in the present case.
+Following de Levie, $w_i=1$, $F^2_i$, $F^4_i$ and $F^6_i$ are
+appropriate for single reactions with orders 0, 1, 2 and 3, respectively. \cite{Levie1986}
+
+Since the differential reaction analysis yielded first-order for steps R1, R2 and R5, 
+we used $w_i=F^2_i$ as the starting weighting functions.
+A sequential optimization strategy was then employed where only
+2 ($k_3$ and $k_4$) or 4 ($k_3$, $k_4$, $n_3$ and $n_4$) variables out of 10 were kept flexible at the initial stage.
+Using these results as initial guesses,
+all 10 variables were allowed to vary in the final stage
+and the corresponding optimized parameters are shown in Table 2. Since the reaction orders $n_3$ and $n_4$ are 2, 
+$w_i=F^4_i$ was also tested, and converged to the same $n_i$
+as for $w_i=F^2_i$ and essentially the same $k_i$ values as well.
+Thus it appears that $w_i=F^2_i$ is an appropriate choice for the weighting function.
+
+\begin{center}
+Table 2. Optimized $n_i$ and $k_i$ values for $w_i=F^2_i$;
+units of $k_i$ $mol/(g_{cat} \cdot s \cdot atm^{n_i})$ 
+\begin{tabular}{c c c c c c c c c c c c c}
+\toprule
+ $n_1$ & $n_2$ & $n_3$ & $n_4$ & $n_5$ & $k_1\times 10^{-5}$ & $k_2\times 10^{-5}$ & $k_3\times 10^{-5}$ & $k_4\times 10^{-5}$ & $k_5\times 10^{-5}$\\
+\midrule
+ 1.00 & 1.00 & 2.00 & 2.00 & 1.00 & 8.38 & 9.68 & 23.8  & 1.76 & 4.46\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Using data from both integral and differential operating conditions,
+a comparison of the experimental and predicted flowrates is shown in Figure 5.
+Figure 5a shows that predicted flowrates are close to the experimental values for various catalyst amounts.
+Figure 5b summarizes the goodness-of-fit in a parity plot.
+The values for all species are close to the diagonal line and relatively evenly distributed on both sides, indicating a good fit (normalized RMS error = 2.75\%).
+
+\begin{center}
+\epsfxsize=500pt
+\epsffile{Figure05.eps}
+
+Figure 5. A comparison of experimental and predicted flowrate values for a) different catalyst amounts, and b) parity plot
+\end{center}
+
+\subsection{Activation Energies and Temperature Effect}
+In the above sections, all reaction orders and rate constants at 400 $^{\circ}$C were determined.
+Using the Arrhenius equation (\ref{Eq31}), reaction activation energies ($E_a$) and exponential factors ($A$) were calculated.
+
+\begin{equation} \label{Eq31}
+k=Aexp\left(-\frac{E_a}{RT}\right)
+\end{equation}
+
+The $E_a$ values are listed in Table 3 and also compared with our prior work \cite{Gao2015},
+where hydrogen and Pt/AC were used.
+
+\begin{center}
+Table 3. Reaction activation energy values, along with comparison for CH$_4$ and H$_2$ cases
+
+\begin{tabular}{c c c c c c c c c c c c c}
+\toprule
+$E_a,~kJ/mol$ & $R_1$ & $R_2$ & $R_3$ & $R_4$ & $R_5$\\
+\midrule
+$CH_4~case$ & 146 & 110 & 166 & 184 & 141\\
+$H_2~case$ & 126 & 100 & 93 & 149 & 125\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The activation energy of step R1 was reported to be 71.2, 58.7 and 89.1 $kJ/mol$
+for Co$-$Mo, Ni$-$Mo and Ni$-$Cu catalysts, respectively, \cite{Laurent1994,Bykova2013}
+when H$_2$ was used as reductant.
+There is no data available for the CH$_4$ case in the literature.
+Using Pt-based catalysts, 
+our activation energies of step R1 are 146 and 126 $kJ/mol$ for the CH$_4$ and H$_2$ cases, respectively, both higher than literature data.
+The difference likely owes to the catalyst itself,
+including Pt metal nature, Pt particle size, support effect and Bi promoter addition \cite{Deepa2014, Xiao2015}.
+Table 3 also shows that activation energies for the CH$_4$ case are always 10-35 $kJ/mol$ higher (except R3) than those for the H$_2$ case. 
+This is an explanation for the fact that, to achieve a similar guaiacol conversion at 300 $^{\circ}$C for the H$_2$ case,
+400 $^{\circ}$C is needed for the CH$_4$ case as shown in our prior work.\cite{Xiao2015}.
+For step R3, activation energy of the H$_2$ case is only 93 $kJ/mol$,
+while it is 166 $kJ/mol$ for the CH$_4$ case.
+This is likely because H$_2$ promotes step R3 by forming a more stable by-product CH$_3$OH than C$_2$H$_6$, the by-product from the CH$_4$ case.
+
+In the present work, kinetics of guaiacol deoxygenation using methane as reductant over Pt-Bi/AC catalyst is 
+studied by both experimental and modeling approaches.
+It is shown that the liquid phase products remain the same as for the case using hydrogen as reductant.\cite{Gao2015}
+The activation energies and other kinetic parameters are obtained based on data fit.
+The experimental data matches model predictions well.
+Modeling results are discussed, analyzed and compared with literature reports.
+The present work provides a new practical approach for bio-oil upgrading
+using methane as reductant instead of hydrogen.
+
+\section{Nomenclature}
+
+\begin{tabbing}
+
+01\hspace*{50bp} \=02\hspace*{90bp} \=03\hspace*{50bp}\kill
+
+$A_i$  \> $[mol\left(s \cdot g_{cat}\right)]$   \> Pre-exponential factor of step i \\
+$D$  \> $[\%]$   \> Metal dispersion\\
+$Ea_i$  \> $[kJ/mol]$   \> Activation energy of step i \\
+$F_0$  \> $[mol/h]$   \> Feed flowrate \\
+$F_i$  \> $[mol/h]$   \> Flowrate of species i \\
+$k_i$  \> $[mol/(g_{cat} \cdot s \cdot atm^n) ]$   \> Reaction rate constant of step i when the reaction order is n\\
+$M_{Pt}$  \> $[kg/kmol]$   \> Molecular weight of Pt \\
+$N_i$  \> $[mol]$   \> Amount of species i \\
+$n_i$  \> $[mol]$   \> Reaction order of step  i \\
+$P_i$  \> $[atm]$   \> Partial pressure of species i \\
+$R$  \> $[J/\left(K \cdot mol \right)]$   \> Gas constant \\
+$r_i$  \> $[mol\left(s \cdot g_{cat}\right)]$  \> Reaction rate of step i \\
+$t$  \> $[s]$   \> Contact time \\
+$TOF_i$  \> $[s^{-1}]$  \> Turnover frequency of step i \\
+$W$  \> $[g]$   \> Catalyst packing amount\\
+$W_i$  \> $[-]$   \> weighting function for species i\\
+$wt$  \> $[\%]$   \> Metal loading percentage \\
+\end{tabbing}
+
+\section{Acknowledgments}
+This work was supported by the R. Games Slayter Fund.
+The authors thank Ms. Marina Lourencone for her valuable assistance.
+
+\bibliography{Kinetics_CH4}
+\end{document}

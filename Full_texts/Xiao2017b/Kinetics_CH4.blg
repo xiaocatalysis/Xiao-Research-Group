@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Kinetics_CH4.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-Kinetics_CH4.bib
+Database file #2: Kinetics_CH4.bib
+I was expecting a `,' or a `}'---line 5537 of file Kinetics_CH4.bib
+ : pages={DOI:10.1080/17597269.2016.1259523}
+ :                                          ;
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 5601 of file Kinetics_CH4.bib
+ : @article
+ :         {Gupta2012,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7564 of file Kinetics_CH4.bib
+ : 
+ : journal = "Progress in Energy and Combustion Science ",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Wangt2011"
+Warning--I didn't find a database entry for "Norris1981"
+You've used 37 entries,
+            2478 wiz_defined-function locations,
+            991 strings with 13459 characters,
+and the built_in function-call counts, 12708 in all, are:
+= -- 1015
+> -- 753
+< -- 16
++ -- 296
+- -- 259
+* -- 1427
+:= -- 1730
+add.period$ -- 36
+call.type$ -- 37
+change.case$ -- 3
+chr.to.int$ -- 2
+cite$ -- 37
+duplicate$ -- 696
+empty$ -- 831
+format.name$ -- 308
+if$ -- 2355
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 238
+num.names$ -- 108
+pop$ -- 73
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 840
+swap$ -- 726
+text.length$ -- 72
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 256
+warning$ -- 0
+while$ -- 142
+width$ -- 0
+write$ -- 449
+(There were 3 error messages)
