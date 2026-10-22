@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website visit counter</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 70px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        body {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+        #visit-counter-widget {
+            display: block;
+            min-width: 120px;
+            min-height: 42px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Kept in its own document because this service writes its output with
+        JavaScript. Loading it inside Footer.html directly can make the output
+        disappear when Footer.html is injected or reprocessed by the main page.
+    -->
+    <div id="visit-counter-widget">
+        <script src="https://www.counters-free.net/count/cxxp"></script>
+    </div>
+</body>
+</html>
